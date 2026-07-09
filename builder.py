@@ -555,6 +555,43 @@ def generate_town_page(conn: sqlite3.Connection, payload: Dict) -> None:
     page.write_text(content, encoding="utf-8")
 
 
+def generate_homepage(conn: sqlite3.Connection) -> None:
+    operator_count = int(conn.execute("SELECT COUNT(*) AS c FROM operators").fetchone()["c"])
+    town_files = sorted((SITE_PATH / "towns").glob("*.md"))
+    operator_files = sorted((SITE_PATH / "operators").glob("*.md"))
+    latest_ops = operator_files[-25:]
+    town_links = "\n".join([f"<li><a href=\"towns/{p.name}\">{p.stem.replace('-', ' ').title()}</a></li>" for p in town_files])
+    op_links = "\n".join([f"<li><a href=\"operators/{p.name}\">{p.stem.replace('-', ' ').title()}</a></li>" for p in latest_ops])
+    html = f"""<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CalabriaTransfers Directory</title>
+  <meta name="description" content="Transport operator directory for Calabria: taxis, NCC, airport and private transfer services." />
+  <style>
+    body {{ font-family: Arial, sans-serif; margin: 2rem; line-height: 1.4; }}
+    h1, h2 {{ margin-bottom: .5rem; }}
+    .muted {{ color: #666; }}
+    ul {{ padding-left: 1.2rem; }}
+    a {{ color: #0b62d6; text-decoration: none; }}
+    a:hover {{ text-decoration: underline; }}
+  </style>
+</head>
+<body>
+  <h1>CalabriaTransfers</h1>
+  <p class="muted">Transport directory for Calabria.</p>
+  <p><strong>Operators indexed:</strong> {operator_count}</p>
+  <h2>Towns</h2>
+  <ul>{town_links or "<li>Town pages will appear as coverage grows.</li>"}</ul>
+  <h2>Latest operators</h2>
+  <ul>{op_links or "<li>Operator pages are being generated.</li>"}</ul>
+</body>
+</html>
+"""
+    (SITE_PATH / "index.html").write_text(html, encoding="utf-8")
+
+
 def queue_size(conn: sqlite3.Connection) -> int:
     return int(conn.execute("SELECT COUNT(*) AS c FROM queue WHERE status='pending'").fetchone()["c"])
 
@@ -580,6 +617,7 @@ def process_one(conn: sqlite3.Connection) -> None:
     write_checkpoint(conn, "last_processed_item", f"{item_type}:{item['id']}")
     write_checkpoint(conn, "last_cycle", now_iso())
     write_checkpoint(conn, "queue_pending", str(queue_size(conn)))
+    generate_homepage(conn)
     print(f"processed={item_type} queue_pending={queue_size(conn)}", flush=True)
 
 
