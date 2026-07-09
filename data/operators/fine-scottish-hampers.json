@@ -1,0 +1,28 @@
+{
+  "name": "Fine Scottish Hampers",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.finescottishhampers.com/",
+  "town": "Cosenza",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Cosenza"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Cosenza Calabria",
+    "rank": 2,
+    "title": "Fine Scottish Hampers | Whisky, Smoked Salmon & Venison Hampers",
+    "url": "https://www.finescottishhampers.com/"
+  }
+}

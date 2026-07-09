@@ -1,0 +1,28 @@
+{
+  "name": "Luxury Scottish Hampers",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.scottish-hampers.com/",
+  "town": "Cosenza",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Cosenza"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Cosenza Calabria",
+    "rank": 1,
+    "title": "Luxury Scottish Hampers | Fine Scottish Food & Drink Gift Baskets",
+    "url": "https://www.scottish-hampers.com/"
+  }
+}

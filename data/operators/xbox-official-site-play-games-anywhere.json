@@ -1,0 +1,28 @@
+{
+  "name": "XBOX Official Site: Play Games Anywhere",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.xbox.com/en-US/",
+  "town": "Cosenza",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Cosenza"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Cosenza Calabria",
+    "rank": 9,
+    "title": "XBOX Official Site: Play Games Anywhere | XBOX",
+    "url": "https://www.xbox.com/en-US/"
+  }
+}

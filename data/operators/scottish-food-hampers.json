@@ -1,0 +1,28 @@
+{
+  "name": "Scottish Food Hampers",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.highlandfayre.co.uk/collections/scottish-hampers",
+  "town": "Cosenza",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Cosenza"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Cosenza Calabria",
+    "rank": 6,
+    "title": "Scottish Food Hampers - Highland Fayre Ltd",
+    "url": "https://www.highlandfayre.co.uk/collections/scottish-hampers"
+  }
+}

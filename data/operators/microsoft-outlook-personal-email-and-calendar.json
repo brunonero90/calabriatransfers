@@ -1,0 +1,28 @@
+{
+  "name": "Microsoft Outlook Personal Email and Calendar",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.outlook.com/",
+  "town": "Cosenza",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Cosenza"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Cosenza Calabria",
+    "rank": 6,
+    "title": "Microsoft Outlook Personal Email and Calendar | Microsoft 365",
+    "url": "https://www.outlook.com/"
+  }
+}

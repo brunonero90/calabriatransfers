@@ -1,0 +1,28 @@
+{
+  "name": "Scottish Hampers",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.finescottishhampers.com/our-hampers",
+  "town": "Cosenza",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Cosenza"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Cosenza Calabria",
+    "rank": 3,
+    "title": "Scottish Hampers | Food & Drink Hampers From Scotland",
+    "url": "https://www.finescottishhampers.com/our-hampers"
+  }
+}

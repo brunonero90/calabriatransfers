@@ -1,0 +1,28 @@
+{
+  "name": "Microsoft account",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://account.microsoft.com/account",
+  "town": "Cosenza",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Cosenza"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Cosenza Calabria",
+    "rank": 2,
+    "title": "Microsoft account | Sign In or Create Your Account Today \u2013 Microsoft",
+    "url": "https://account.microsoft.com/account"
+  }
+}

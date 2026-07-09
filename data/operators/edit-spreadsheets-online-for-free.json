@@ -1,0 +1,28 @@
+{
+  "name": "Edit spreadsheets online for free",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://excel.cloud.microsoft/en-us/",
+  "town": "Cosenza",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Cosenza"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Cosenza Calabria",
+    "rank": 10,
+    "title": "Edit spreadsheets online for free | Microsoft Excel for the Web",
+    "url": "https://excel.cloud.microsoft/en-us/"
+  }
+}

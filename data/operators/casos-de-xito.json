@@ -1,0 +1,28 @@
+{
+  "name": "Casos de \u00c9xito",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.holded.com/es/casos-de-exito",
+  "town": "Scilla",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Scilla"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "transfer aeroporto Scilla Calabria",
+    "rank": 10,
+    "title": "Casos de \u00c9xito | Holded",
+    "url": "https://www.holded.com/es/casos-de-exito"
+  }
+}

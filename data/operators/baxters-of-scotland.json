@@ -1,0 +1,28 @@
+{
+  "name": "Baxters of Scotland",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.baxtersofscotland.com/",
+  "town": "Cosenza",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Cosenza"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Cosenza Calabria",
+    "rank": 9,
+    "title": "Baxters of Scotland | Hampers and Gifts",
+    "url": "https://www.baxtersofscotland.com/"
+  }
+}

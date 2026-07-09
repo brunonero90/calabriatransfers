@@ -1,0 +1,28 @@
+{
+  "name": "ERP Online para Aut\u00f3nomos y Pymes",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.holded.com/es/erp",
+  "town": "Scilla",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Scilla"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "transfer aeroporto Scilla Calabria",
+    "rank": 7,
+    "title": "ERP Online para Aut\u00f3nomos y Pymes | Holded",
+    "url": "https://www.holded.com/es/erp"
+  }
+}

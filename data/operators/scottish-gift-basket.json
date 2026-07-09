@@ -1,0 +1,28 @@
+{
+  "name": "Scottish Gift Basket",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.etsy.com/market/scottish_gift_basket",
+  "town": "Cosenza",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Cosenza"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Cosenza Calabria",
+    "rank": 8,
+    "title": "Scottish Gift Basket - 60+ Gift Ideas for 2026 - Etsy",
+    "url": "https://www.etsy.com/market/scottish_gift_basket"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Scottish Hampers & Gift Boxes",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://scottish-store.co.uk/collections/scottish-hampers-gift-boxs",
+  "town": "Cosenza",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Cosenza"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Cosenza Calabria",
+    "rank": 4,
+    "title": "Scottish Hampers & Gift Boxes | Scottish Store & Deli \u2013 Scottish Store ...",
+    "url": "https://scottish-store.co.uk/collections/scottish-hampers-gift-boxs"
+  }
+}

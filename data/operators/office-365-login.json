@@ -1,0 +1,28 @@
+{
+  "name": "Office 365 login",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.office.com/",
+  "town": "Cosenza",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Cosenza"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Cosenza Calabria",
+    "rank": 3,
+    "title": "Office 365 login",
+    "url": "https://www.office.com/"
+  }
+}

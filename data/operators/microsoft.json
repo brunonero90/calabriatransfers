@@ -1,0 +1,28 @@
+{
+  "name": "Microsoft",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.linkedin.com/company/microsoft",
+  "town": "Cosenza",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Cosenza"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Cosenza Calabria",
+    "rank": 8,
+    "title": "Microsoft - LinkedIn",
+    "url": "https://www.linkedin.com/company/microsoft"
+  }
+}

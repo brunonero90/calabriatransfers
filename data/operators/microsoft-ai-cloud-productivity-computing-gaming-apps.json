@@ -1,0 +1,28 @@
+{
+  "name": "Microsoft \u2013 AI, Cloud, Productivity, Computing, Gaming & Apps",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.microsoft.com/en-us",
+  "town": "Cosenza",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Cosenza"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Cosenza Calabria",
+    "rank": 1,
+    "title": "Microsoft \u2013 AI, Cloud, Productivity, Computing, Gaming & Apps",
+    "url": "https://www.microsoft.com/en-us"
+  }
+}

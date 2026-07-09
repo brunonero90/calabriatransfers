@@ -1,0 +1,28 @@
+{
+  "name": "Log in",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://app.holded.com/login",
+  "town": "Scilla",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Scilla"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "transfer aeroporto Scilla Calabria",
+    "rank": 2,
+    "title": "Log in - Holded",
+    "url": "https://app.holded.com/login"
+  }
+}

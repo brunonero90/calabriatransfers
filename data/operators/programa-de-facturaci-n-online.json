@@ -1,0 +1,28 @@
+{
+  "name": "Programa de Facturaci\u00f3n Online",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.holded.com/es/programa-facturacion",
+  "town": "Scilla",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Scilla"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "transfer aeroporto Scilla Calabria",
+    "rank": 6,
+    "title": "Programa de Facturaci\u00f3n Online - Pymes y Aut\u00f3nomos | Holded",
+    "url": "https://www.holded.com/es/programa-facturacion"
+  }
+}

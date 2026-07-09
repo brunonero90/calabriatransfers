@@ -1,0 +1,28 @@
+{
+  "name": "Software de facturaci\u00f3n y m\u00e1s para asesor\u00edas y sus clientes",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.holded.com/es/asesorias",
+  "town": "Scilla",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Scilla"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "transfer aeroporto Scilla Calabria",
+    "rank": 9,
+    "title": "Software de facturaci\u00f3n y m\u00e1s para asesor\u00edas y sus clientes | Holded",
+    "url": "https://www.holded.com/es/asesorias"
+  }
+}

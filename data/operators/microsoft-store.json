@@ -1,0 +1,28 @@
+{
+  "name": "Microsoft Store",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.xbox.com/en-us/microsoft-store",
+  "town": "Cosenza",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Cosenza"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Cosenza Calabria",
+    "rank": 7,
+    "title": "Microsoft Store | XBOX",
+    "url": "https://www.xbox.com/en-us/microsoft-store"
+  }
+}

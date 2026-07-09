@@ -1,0 +1,28 @@
+{
+  "name": "Create your Microsoft account",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://signup.live.com/",
+  "town": "Cosenza",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Cosenza"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Cosenza Calabria",
+    "rank": 5,
+    "title": "Create your Microsoft account",
+    "url": "https://signup.live.com/"
+  }
+}
