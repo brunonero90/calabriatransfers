@@ -1,0 +1,28 @@
+{
+  "name": "ELE TAXI \u2013 Warszawa",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://eletaxi.pl/",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Vibo Valentia Calabria",
+    "rank": 4,
+    "title": "ELE TAXI \u2013 Warszawa | 22 811 11 11 | Zam\u00f3w online lub w aplikacji",
+    "url": "https://eletaxi.pl/"
+  }
+}

@@ -7,6 +7,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
@@ -28,6 +29,7 @@ SITE_PATH = ROOT / "site"
 
 USER_AGENT = "CalabriaTransfersBot/1.0 (+local-builder)"
 CYCLE_SECONDS = 120
+MAX_TASKS_PER_CYCLE = 25
 
 QUALITY_FIELDS = [
     "name",
@@ -145,15 +147,30 @@ def write_checkpoint(conn: sqlite3.Connection, key: str, value: str) -> None:
     conn.commit()
 
 
-def queue_push(conn: sqlite3.Connection, item: QueueItem) -> None:
+def queue_push(conn: sqlite3.Connection, item: QueueItem, requeue: bool = False) -> None:
     ts = now_iso()
-    conn.execute(
-        """
-        INSERT OR IGNORE INTO queue(item_type, priority, dedupe_key, payload_json, status, created_at, updated_at)
-        VALUES(?, ?, ?, ?, 'pending', ?, ?)
-        """,
-        (item.item_type, item.priority, item.dedupe_key, json.dumps(item.payload), ts, ts),
-    )
+    if requeue:
+        conn.execute(
+            """
+            INSERT INTO queue(item_type, priority, dedupe_key, payload_json, status, created_at, updated_at)
+            VALUES(?, ?, ?, ?, 'pending', ?, ?)
+            ON CONFLICT(dedupe_key) DO UPDATE SET
+                item_type=excluded.item_type,
+                priority=excluded.priority,
+                payload_json=excluded.payload_json,
+                status='pending',
+                updated_at=excluded.updated_at
+            """,
+            (item.item_type, item.priority, item.dedupe_key, json.dumps(item.payload), ts, ts),
+        )
+    else:
+        conn.execute(
+            """
+            INSERT OR IGNORE INTO queue(item_type, priority, dedupe_key, payload_json, status, created_at, updated_at)
+            VALUES(?, ?, ?, ?, 'pending', ?, ?)
+            """,
+            (item.item_type, item.priority, item.dedupe_key, json.dumps(item.payload), ts, ts),
+        )
     conn.commit()
 
 
@@ -190,7 +207,7 @@ def fetch_json(url: str) -> List[Dict]:
 def seed_discovery(conn: sqlite3.Connection) -> None:
     seeds_path = DATA / "discovery" / "seeds.json"
     if not seeds_path.exists():
-        seeds = [{"town": t, "query": f"transfer taxi NCC {t} Calabria"} for t in CALABRIA_TOWNS]
+        seeds = [{"town": t, "query": f"discover transport providers {t} Calabria"} for t in CALABRIA_TOWNS]
         seeds_path.write_text(json.dumps(seeds, ensure_ascii=True, indent=2), encoding="utf-8")
     else:
         seeds = json.loads(seeds_path.read_text(encoding="utf-8"))
@@ -201,7 +218,47 @@ def seed_discovery(conn: sqlite3.Connection) -> None:
             payload=s,
             dedupe_key=f"discover:{s['query'].strip().lower()}",
         )
-        queue_push(conn, q)
+        queue_push(conn, q, requeue=True)
+
+
+def fetch_overpass_calabria() -> List[Dict]:
+    overpass_query = """
+[out:json][timeout:60];
+area["name"="Calabria"]["boundary"="administrative"]["admin_level"="4"]->.cal;
+(
+  nwr(area.cal)["amenity"="taxi"]["name"];
+  nwr(area.cal)["office"="taxi"]["name"];
+  nwr(area.cal)["shop"="car_rental"]["name"];
+  nwr(area.cal)["transport"="taxi"]["name"];
+);
+out center tags 500;
+""".strip()
+    payload = urllib.parse.urlencode({"data": overpass_query}).encode("utf-8")
+    req = urllib.request.Request(
+        "https://overpass-api.de/api/interpreter",
+        data=payload,
+        headers={"User-Agent": USER_AGENT, "Content-Type": "application/x-www-form-urlencoded"},
+    )
+    with urllib.request.urlopen(req, timeout=90) as response:
+        raw = json.loads(response.read().decode("utf-8"))
+    return raw.get("elements", [])
+
+
+def fetch_bing_rss(query: str) -> List[Dict]:
+    url = "https://www.bing.com/search?format=rss&q=" + urllib.parse.quote(query)
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(req, timeout=30) as response:
+        text = response.read().decode("utf-8", errors="ignore")
+    root = ET.fromstring(text)
+    out: List[Dict] = []
+    for item in root.findall(".//item"):
+        title = (item.findtext("title") or "").strip()
+        link = (item.findtext("link") or "").strip()
+        desc = (item.findtext("description") or "").strip()
+        if not link:
+            continue
+        out.append({"title": title, "link": link, "description": desc})
+    return out
 
 
 def extract_contacts(text: str) -> Dict[str, str]:
@@ -289,26 +346,40 @@ def upsert_operator(conn: sqlite3.Connection, source_key: str, profile: Dict) ->
 
 
 def discover_query(conn: sqlite3.Connection, payload: Dict) -> None:
-    query = payload["query"]
-    params = {
-        "q": query,
-        "format": "jsonv2",
-        "addressdetails": 1,
-        "limit": 25,
-    }
-    url = "https://nominatim.openstreetmap.org/search?" + urllib.parse.urlencode(params)
+    query = payload.get("query", "")
+    town = payload.get("town", "")
+    found = 0
     try:
-        items = fetch_json(url)
+        items = fetch_overpass_calabria()
     except (urllib.error.URLError, TimeoutError, json.JSONDecodeError):
-        return
+        items = []
     snap = DATA / "snapshots" / f"discover_{hashlib.sha1(query.encode('utf-8')).hexdigest()[:12]}.json"
     snap.write_text(json.dumps(items, ensure_ascii=True, indent=2), encoding="utf-8")
     for item in items:
-        display = item.get("display_name", "")
-        contacts = extract_contacts(display)
-        name = display.split(",")[0].strip() if display else ""
-        addr = item.get("address", {}) or {}
-        town = addr.get("city") or addr.get("town") or addr.get("village") or payload.get("town", "")
+        tags = item.get("tags", {}) or {}
+        contacts_blob = " ".join(
+            [
+                tags.get("contact:phone", ""),
+                tags.get("phone", ""),
+                tags.get("contact:email", ""),
+                tags.get("email", ""),
+                tags.get("contact:website", ""),
+                tags.get("website", ""),
+            ]
+        )
+        contacts = extract_contacts(contacts_blob)
+        name = tags.get("name", "").strip()
+        town = tags.get("addr:city") or tags.get("addr:town") or payload.get("town", "")
+        center = item.get("center", {})
+        lat = center.get("lat") or item.get("lat")
+        lon = center.get("lon") or item.get("lon")
+        services = []
+        if tags.get("amenity") == "taxi" or tags.get("office") == "taxi" or tags.get("transport") == "taxi":
+            services.append("taxi")
+        if tags.get("shop") == "car_rental":
+            services.append("car rental")
+        if not services:
+            services = ["private transfer"]
         profile = {
             "name": name,
             "phone": contacts["phone"],
@@ -319,21 +390,23 @@ def discover_query(conn: sqlite3.Connection, payload: Dict) -> None:
             "languages": ["it"],
             "vehicles": [],
             "photos": [],
-            "services": ["airport transfer", "private transfer"],
+            "services": services,
             "coverage": [town] if town else [],
             "source": {
-                "provider": "nominatim",
-                "osm_id": item.get("osm_id"),
-                "lat": item.get("lat"),
-                "lon": item.get("lon"),
-                "raw_name": display,
+                "provider": "overpass",
+                "osm_id": item.get("id"),
+                "osm_type": item.get("type"),
+                "lat": lat,
+                "lon": lon,
+                "raw_tags": tags,
             },
         }
         if not profile["name"]:
             continue
-        source_key = f"nominatim:{item.get('osm_type','x')}:{item.get('osm_id','0')}"
+        source_key = f"overpass:{item.get('type','x')}:{item.get('id','0')}"
         changed = upsert_operator(conn, source_key, profile)
         if changed:
+            found += 1
             queue_push(
                 conn,
                 QueueItem(
@@ -343,6 +416,62 @@ def discover_query(conn: sqlite3.Connection, payload: Dict) -> None:
                     dedupe_key=f"page:town:{town.lower()}",
                 ),
             )
+
+    if found > 0:
+        return
+
+    # Deterministic fallback discovery from Bing RSS results.
+    rss_queries = [
+        f"NCC {town} Calabria",
+        f"taxi {town} Calabria",
+        f"transfer aeroporto {town} Calabria",
+    ]
+    for rq in rss_queries:
+        try:
+            rss_items = fetch_bing_rss(rq)
+        except (urllib.error.URLError, TimeoutError, ET.ParseError):
+            continue
+        for idx, item in enumerate(rss_items):
+            title = item.get("title", "")
+            link = item.get("link", "")
+            desc = item.get("description", "")
+            name = re.split(r"\s[-|]\s", title)[0].strip() if title else ""
+            if not name:
+                continue
+            contacts = extract_contacts(f"{desc} {link}")
+            website = contacts["website"] or link
+            profile = {
+                "name": name,
+                "phone": contacts["phone"],
+                "email": contacts["email"],
+                "whatsapp": contacts["phone"],
+                "website": website,
+                "town": town,
+                "languages": ["it"],
+                "vehicles": ["sedan"],
+                "photos": [],
+                "services": ["private transfer"],
+                "coverage": [town] if town else [],
+                "source": {
+                    "provider": "bing-rss",
+                    "query": rq,
+                    "rank": idx + 1,
+                    "title": title,
+                    "url": link,
+                },
+            }
+            source_key = f"bing:{hashlib.sha1((rq + '|' + link).encode('utf-8')).hexdigest()[:20]}"
+            changed = upsert_operator(conn, source_key, profile)
+            if changed:
+                queue_push(
+                    conn,
+                    QueueItem(
+                        item_type="GENERATE_TOWN_PAGE",
+                        priority=3,
+                        payload={"town": town},
+                        dedupe_key=f"page:town:{town.lower()}",
+                    ),
+                )
 
 
 def enrich_operator(conn: sqlite3.Connection, payload: Dict) -> None:
@@ -451,14 +580,23 @@ def process_one(conn: sqlite3.Connection) -> None:
     write_checkpoint(conn, "last_processed_item", f"{item_type}:{item['id']}")
     write_checkpoint(conn, "last_cycle", now_iso())
     write_checkpoint(conn, "queue_pending", str(queue_size(conn)))
+    print(f"processed={item_type} queue_pending={queue_size(conn)}", flush=True)
 
 
 def loop_forever() -> None:
     ensure_dirs()
     conn = connect_db()
     while True:
-        process_one(conn)
-        time.sleep(CYCLE_SECONDS)
+        for _ in range(MAX_TASKS_PER_CYCLE):
+            before = queue_size(conn)
+            process_one(conn)
+            after = queue_size(conn)
+            if before == 0 and after == 0:
+                break
+        if queue_size(conn) > 0:
+            time.sleep(1)
+        else:
+            time.sleep(CYCLE_SECONDS)
 
 
 if __name__ == "__main__":

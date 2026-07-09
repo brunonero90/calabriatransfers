@@ -1,0 +1,28 @@
+{
+  "name": "Building, Industry, Infrastructure, Property Development",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.ncc.com/",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Vibo Valentia Calabria",
+    "rank": 5,
+    "title": "Building, Industry, Infrastructure, Property Development | NCC",
+    "url": "https://www.ncc.com/"
+  }
+}

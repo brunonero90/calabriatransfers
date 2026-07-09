@@ -1,0 +1,28 @@
+{
+  "name": "NCC",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.nccpolska.pl/",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Vibo Valentia Calabria",
+    "rank": 9,
+    "title": "NCC - NCC",
+    "url": "https://www.nccpolska.pl/"
+  }
+}

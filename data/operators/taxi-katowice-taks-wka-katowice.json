@@ -1,0 +1,28 @@
+{
+  "name": "Taxi Katowice \u2013 Taks\u00f3wka Katowice -",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://lider-taxi.pl/",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Vibo Valentia Calabria",
+    "rank": 9,
+    "title": "Taxi Katowice \u2013 Taks\u00f3wka Katowice -",
+    "url": "https://lider-taxi.pl/"
+  }
+}

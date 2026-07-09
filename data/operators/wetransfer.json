@@ -1,0 +1,28 @@
+{
+  "name": "WeTransfer",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://wetransfer.com/",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "transfer aeroporto Vibo Valentia Calabria",
+    "rank": 1,
+    "title": "WeTransfer | Send Large Files Fast",
+    "url": "https://wetransfer.com/"
+  }
+}

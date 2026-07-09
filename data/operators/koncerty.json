@@ -1,0 +1,28 @@
+{
+  "name": "Koncerty",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://nck.krakow.pl/wydarzenia/wydarzenia-koncerty/",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Vibo Valentia Calabria",
+    "rank": 7,
+    "title": "Koncerty - Nowohuckie Centrum Kultury Krak\u00f3w",
+    "url": "https://nck.krakow.pl/wydarzenia/wydarzenia-koncerty/"
+  }
+}

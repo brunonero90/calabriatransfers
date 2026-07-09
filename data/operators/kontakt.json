@@ -1,0 +1,28 @@
+{
+  "name": "Kontakt",
+  "phone": "+48 664 961 007",
+  "email": "ncc@ncc-nieruchomosci.pl",
+  "whatsapp": "+48 664 961 007",
+  "website": "https://www.ncc-nieruchomosci.pl/kontakt/",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Vibo Valentia Calabria",
+    "rank": 4,
+    "title": "Kontakt - NCC Nieruchomo\u015bci",
+    "url": "https://www.ncc-nieruchomosci.pl/kontakt/"
+  }
+}

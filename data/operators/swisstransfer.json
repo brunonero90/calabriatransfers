@@ -1,0 +1,28 @@
+{
+  "name": "SwissTransfer",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.swisstransfer.com/en",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "transfer aeroporto Vibo Valentia Calabria",
+    "rank": 9,
+    "title": "SwissTransfer - Send large files securely and free of charge",
+    "url": "https://www.swisstransfer.com/en"
+  }
+}

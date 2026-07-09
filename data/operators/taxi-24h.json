@@ -1,0 +1,28 @@
+{
+  "name": "Taxi 24h",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://taxi-24.com.pl/",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Vibo Valentia Calabria",
+    "rank": 10,
+    "title": "Taxi 24h - Taks\u00f3wki dost\u0119pne w ca\u0142ej Polsce",
+    "url": "https://taxi-24.com.pl/"
+  }
+}

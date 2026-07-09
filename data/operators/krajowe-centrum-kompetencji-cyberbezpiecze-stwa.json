@@ -1,0 +1,28 @@
+{
+  "name": "Krajowe Centrum Kompetencji Cyberbezpiecze\u0144stwa",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.gov.pl/web/cyber-nccpl",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Vibo Valentia Calabria",
+    "rank": 2,
+    "title": "Krajowe Centrum Kompetencji Cyberbezpiecze\u0144stwa",
+    "url": "https://www.gov.pl/web/cyber-nccpl"
+  }
+}

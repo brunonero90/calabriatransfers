@@ -1,0 +1,28 @@
+{
+  "name": "Send Large Files",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.transfernow.net/en",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "transfer aeroporto Vibo Valentia Calabria",
+    "rank": 4,
+    "title": "Send Large Files - Free Secure File Transfer - TransferNow",
+    "url": "https://www.transfernow.net/en"
+  }
+}

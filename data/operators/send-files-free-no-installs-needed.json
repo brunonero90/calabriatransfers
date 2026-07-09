@@ -1,0 +1,28 @@
+{
+  "name": "Send files free, no installs needed",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://wetransfer.com/resources/free-file-transfer",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "transfer aeroporto Vibo Valentia Calabria",
+    "rank": 5,
+    "title": "Send files free, no installs needed - WeTransfer",
+    "url": "https://wetransfer.com/resources/free-file-transfer"
+  }
+}

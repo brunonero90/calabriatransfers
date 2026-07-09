@@ -1,0 +1,28 @@
+{
+  "name": "Football transfers, rumours, market values and news",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.transfermarkt.com/",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "transfer aeroporto Vibo Valentia Calabria",
+    "rank": 8,
+    "title": "Football transfers, rumours, market values and news",
+    "url": "https://www.transfermarkt.com/"
+  }
+}

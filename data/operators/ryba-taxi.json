@@ -1,0 +1,28 @@
+{
+  "name": "Ryba Taxi",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://rybataxi.pl/",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Vibo Valentia Calabria",
+    "rank": 5,
+    "title": "Ryba Taxi",
+    "url": "https://rybataxi.pl/"
+  }
+}

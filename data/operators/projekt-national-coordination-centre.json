@@ -1,0 +1,28 @@
+{
+  "name": "Projekt National Coordination Centre",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.gov.pl/web/cyber-nccpl/projekt-national-coordination-centre--poland-ncc-pl",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Vibo Valentia Calabria",
+    "rank": 1,
+    "title": "Projekt National Coordination Centre - Poland (NCC-PL)",
+    "url": "https://www.gov.pl/web/cyber-nccpl/projekt-national-coordination-centre--poland-ncc-pl"
+  }
+}

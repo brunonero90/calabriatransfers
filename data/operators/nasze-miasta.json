@@ -1,0 +1,28 @@
+{
+  "name": "Nasze miasta",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.itaxi.pl/nasze-miasta/",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Vibo Valentia Calabria",
+    "rank": 6,
+    "title": "Nasze miasta - iTaxi",
+    "url": "https://www.itaxi.pl/nasze-miasta/"
+  }
+}

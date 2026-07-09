@@ -1,0 +1,28 @@
+{
+  "name": "Transfery, pog\u0142oski, warto\u015bci rynkowe i wiadomo\u015bci",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.transfermarkt.pl/",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "transfer aeroporto Vibo Valentia Calabria",
+    "rank": 3,
+    "title": "Transfery, pog\u0142oski, warto\u015bci rynkowe i wiadomo\u015bci | Transfermarkt",
+    "url": "https://www.transfermarkt.pl/"
+  }
+}

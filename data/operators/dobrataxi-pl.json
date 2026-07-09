@@ -1,0 +1,28 @@
+{
+  "name": "dobrataxi.pl",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://dobrataxi.pl/",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Vibo Valentia Calabria",
+    "rank": 8,
+    "title": "dobrataxi.pl - Wyszukiwarka Taxi",
+    "url": "https://dobrataxi.pl/"
+  }
+}

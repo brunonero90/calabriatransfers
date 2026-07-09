@@ -1,0 +1,28 @@
+{
+  "name": "New Construction Concept",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://nccgroup.pl/",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Vibo Valentia Calabria",
+    "rank": 6,
+    "title": "New Construction Concept",
+    "url": "https://nccgroup.pl/"
+  }
+}

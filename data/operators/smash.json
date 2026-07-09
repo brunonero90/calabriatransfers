@@ -1,0 +1,28 @@
+{
+  "name": "Smash",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://fromsmash.com/",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "transfer aeroporto Vibo Valentia Calabria",
+    "rank": 10,
+    "title": "Smash | Send Large Files Online \u2013 Free, Secure & Unlimited",
+    "url": "https://fromsmash.com/"
+  }
+}
