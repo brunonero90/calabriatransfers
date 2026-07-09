@@ -1,0 +1,42 @@
+[
+  {
+    "town": "Reggio Calabria",
+    "query": "transfer taxi NCC Reggio Calabria Calabria"
+  },
+  {
+    "town": "Catanzaro",
+    "query": "transfer taxi NCC Catanzaro Calabria"
+  },
+  {
+    "town": "Cosenza",
+    "query": "transfer taxi NCC Cosenza Calabria"
+  },
+  {
+    "town": "Crotone",
+    "query": "transfer taxi NCC Crotone Calabria"
+  },
+  {
+    "town": "Vibo Valentia",
+    "query": "transfer taxi NCC Vibo Valentia Calabria"
+  },
+  {
+    "town": "Lamezia Terme",
+    "query": "transfer taxi NCC Lamezia Terme Calabria"
+  },
+  {
+    "town": "Tropea",
+    "query": "transfer taxi NCC Tropea Calabria"
+  },
+  {
+    "town": "Scilla",
+    "query": "transfer taxi NCC Scilla Calabria"
+  },
+  {
+    "town": "Soverato",
+    "query": "transfer taxi NCC Soverato Calabria"
+  },
+  {
+    "town": "Rende",
+    "query": "transfer taxi NCC Rende Calabria"
+  }
+]
