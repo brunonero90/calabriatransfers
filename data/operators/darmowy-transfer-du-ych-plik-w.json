@@ -4,7 +4,7 @@
   "email": "",
   "whatsapp": "",
   "website": "https://www.transferxl.com/pl/",
-  "town": "Vibo Valentia",
+  "town": "Soverato",
   "languages": [
     "it"
   ],
@@ -16,12 +16,12 @@
     "private transfer"
   ],
   "coverage": [
-    "Vibo Valentia"
+    "Soverato"
   ],
   "source": {
     "provider": "bing-rss",
-    "query": "transfer aeroporto Vibo Valentia Calabria",
-    "rank": 6,
+    "query": "transfer aeroporto Soverato Calabria",
+    "rank": 8,
     "title": "Darmowy transfer du\u017cych plik\u00f3w | Przesy\u0142anie plik\u00f3w | Wysy\u0142anie plik\u00f3w",
     "url": "https://www.transferxl.com/pl/"
   }

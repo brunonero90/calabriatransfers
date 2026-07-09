@@ -3,8 +3,8 @@
   "phone": "",
   "email": "",
   "whatsapp": "",
-  "website": "https://www.transfermarkt.com/",
-  "town": "Vibo Valentia",
+  "website": "https://www.transfermarkt.com/startseite",
+  "town": "Soverato",
   "languages": [
     "it"
   ],
@@ -16,13 +16,13 @@
     "private transfer"
   ],
   "coverage": [
-    "Vibo Valentia"
+    "Soverato"
   ],
   "source": {
     "provider": "bing-rss",
-    "query": "transfer aeroporto Vibo Valentia Calabria",
-    "rank": 8,
+    "query": "transfer aeroporto Soverato Calabria",
+    "rank": 4,
     "title": "Football transfers, rumours, market values and news",
-    "url": "https://www.transfermarkt.com/"
+    "url": "https://www.transfermarkt.com/startseite"
   }
 }

@@ -4,7 +4,7 @@
   "email": "",
   "whatsapp": "",
   "website": "https://wetransfer.com/resources/free-file-transfer",
-  "town": "Vibo Valentia",
+  "town": "Soverato",
   "languages": [
     "it"
   ],
@@ -16,13 +16,13 @@
     "private transfer"
   ],
   "coverage": [
-    "Vibo Valentia"
+    "Soverato"
   ],
   "source": {
     "provider": "bing-rss",
-    "query": "transfer aeroporto Vibo Valentia Calabria",
-    "rank": 5,
-    "title": "Send files free, no installs needed - WeTransfer",
+    "query": "transfer aeroporto Soverato Calabria",
+    "rank": 3,
+    "title": "Send files free, no installs needed | WeTransfer",
     "url": "https://wetransfer.com/resources/free-file-transfer"
   }
 }

@@ -1,9 +1,9 @@
 {
-  "name": "Transfery, pog\u0142oski, warto\u015bci rynkowe i wiadomo\u015bci",
+  "name": "Football transfer news, rumours, reports and gossip",
   "phone": "",
   "email": "",
   "whatsapp": "",
-  "website": "https://www.transfermarkt.pl/?hl=en",
+  "website": "https://www.skysports.com/football/transfer-rumours",
   "town": "Soverato",
   "languages": [
     "it"
@@ -21,8 +21,8 @@
   "source": {
     "provider": "bing-rss",
     "query": "transfer aeroporto Soverato Calabria",
-    "rank": 2,
-    "title": "Transfery, pog\u0142oski, warto\u015bci rynkowe i wiadomo\u015bci",
-    "url": "https://www.transfermarkt.pl/?hl=en"
+    "rank": 10,
+    "title": "Football transfer news, rumours, reports and gossip",
+    "url": "https://www.skysports.com/football/transfer-rumours"
   }
 }

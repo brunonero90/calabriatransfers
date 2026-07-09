@@ -1,14 +1,14 @@
 # Transfery, pogłoski, wartości rynkowe i wiadomości
 
-- Town: Vibo Valentia
+- Town: Soverato
 - Phone: 
 - Email: 
 - WhatsApp: 
-- Website: https://www.transfermarkt.pl/
+- Website: https://www.transfermarkt.pl/?hl=en
 - Languages: it
 - Vehicles: sedan
 - Services: private transfer
-- Coverage: Vibo Valentia
+- Coverage: Soverato
 - Completeness: 63.64%
 
 CalabriaTransfers verified profile snapshot.

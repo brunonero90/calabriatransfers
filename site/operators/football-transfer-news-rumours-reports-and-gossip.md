@@ -1,10 +1,10 @@
-# Football transfers, rumours, market values and news
+# Football transfer news, rumours, reports and gossip
 
 - Town: Soverato
 - Phone: 
 - Email: 
 - WhatsApp: 
-- Website: https://www.transfermarkt.com/startseite
+- Website: https://www.skysports.com/football/transfer-rumours
 - Languages: it
 - Vehicles: sedan
 - Services: private transfer

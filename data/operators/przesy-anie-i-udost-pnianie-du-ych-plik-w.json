@@ -4,7 +4,7 @@
   "email": "",
   "whatsapp": "",
   "website": "https://www.transfernow.net/pl",
-  "town": "Vibo Valentia",
+  "town": "Soverato",
   "languages": [
     "it"
   ],
@@ -16,12 +16,12 @@
     "private transfer"
   ],
   "coverage": [
-    "Vibo Valentia"
+    "Soverato"
   ],
   "source": {
     "provider": "bing-rss",
-    "query": "transfer aeroporto Vibo Valentia Calabria",
-    "rank": 2,
+    "query": "transfer aeroporto Soverato Calabria",
+    "rank": 6,
     "title": "Przesy\u0142anie i Udost\u0119pnianie Du\u017cych Plik\u00f3w - TransferNow",
     "url": "https://www.transfernow.net/pl"
   }
