@@ -4,7 +4,7 @@
   "email": "",
   "whatsapp": "",
   "website": "https://www.ncc-nieruchomosci.pl/zarzadzanie-nieruchomosciami-krakow/",
-  "town": "Vibo Valentia",
+  "town": "Scilla",
   "languages": [
     "it"
   ],
@@ -16,12 +16,12 @@
     "private transfer"
   ],
   "coverage": [
-    "Vibo Valentia"
+    "Scilla"
   ],
   "source": {
     "provider": "bing-rss",
-    "query": "NCC Vibo Valentia Calabria",
-    "rank": 3,
+    "query": "NCC Scilla Calabria",
+    "rank": 6,
     "title": "Zarz\u0105dzanie i administrowanie nieruchomo\u015bciami Krak\u00f3w \ufe0f NCC ...",
     "url": "https://www.ncc-nieruchomosci.pl/zarzadzanie-nieruchomosciami-krakow/"
   }

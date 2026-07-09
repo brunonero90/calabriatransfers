@@ -4,7 +4,7 @@
   "email": "",
   "whatsapp": "",
   "website": "https://www.gov.pl/web/cyber-nccpl/projekt-national-coordination-centre--poland-ncc-pl",
-  "town": "Vibo Valentia",
+  "town": "Scilla",
   "languages": [
     "it"
   ],
@@ -16,12 +16,12 @@
     "private transfer"
   ],
   "coverage": [
-    "Vibo Valentia"
+    "Scilla"
   ],
   "source": {
     "provider": "bing-rss",
-    "query": "NCC Vibo Valentia Calabria",
-    "rank": 1,
+    "query": "NCC Scilla Calabria",
+    "rank": 2,
     "title": "Projekt National Coordination Centre - Poland (NCC-PL)",
     "url": "https://www.gov.pl/web/cyber-nccpl/projekt-national-coordination-centre--poland-ncc-pl"
   }

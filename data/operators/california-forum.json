@@ -1,9 +1,9 @@
 {
-  "name": "Krajowe Centrum Kompetencji Cyberbezpiecze\u0144stwa",
+  "name": "California Forum",
   "phone": "",
   "email": "",
   "whatsapp": "",
-  "website": "https://www.gov.pl/web/cyber-nccpl",
+  "website": "https://www.city-data.com/forum/california/",
   "town": "Scilla",
   "languages": [
     "it"
@@ -21,8 +21,8 @@
   "source": {
     "provider": "bing-rss",
     "query": "NCC Scilla Calabria",
-    "rank": 3,
-    "title": "Krajowe Centrum Kompetencji Cyberbezpiecze\u0144stwa",
-    "url": "https://www.gov.pl/web/cyber-nccpl"
+    "rank": 10,
+    "title": "California Forum - Join the California community for insights on CA ...",
+    "url": "https://www.city-data.com/forum/california/"
   }
 }

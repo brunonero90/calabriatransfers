@@ -592,6 +592,16 @@ def generate_homepage(conn: sqlite3.Connection) -> None:
     (SITE_PATH / "index.html").write_text(html, encoding="utf-8")
 
 
+def recover_stuck_queue(conn: sqlite3.Connection) -> int:
+    ts = now_iso()
+    cur = conn.execute(
+        "UPDATE queue SET status='pending', updated_at=? WHERE status='processing'",
+        (ts,),
+    )
+    conn.commit()
+    return cur.rowcount
+
+
 def queue_size(conn: sqlite3.Connection) -> int:
     return int(conn.execute("SELECT COUNT(*) AS c FROM queue WHERE status='pending'").fetchone()["c"])
 
@@ -624,6 +634,9 @@ def process_one(conn: sqlite3.Connection) -> None:
 def loop_forever() -> None:
     ensure_dirs()
     conn = connect_db()
+    stuck = recover_stuck_queue(conn)
+    if stuck:
+        print(f"recovered_stuck_queue={stuck}", flush=True)
     while True:
         for _ in range(MAX_TASKS_PER_CYCLE):
             before = queue_size(conn)

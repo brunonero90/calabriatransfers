@@ -1,9 +1,9 @@
 {
-  "name": "Krajowe Centrum Kompetencji Cyberbezpiecze\u0144stwa",
+  "name": "National Cadet Corps (India)",
   "phone": "",
   "email": "",
   "whatsapp": "",
-  "website": "https://www.gov.pl/web/cyber-nccpl",
+  "website": "https://en.wikipedia.org/wiki/National_Cadet_Corps_(India)",
   "town": "Scilla",
   "languages": [
     "it"
@@ -21,8 +21,8 @@
   "source": {
     "provider": "bing-rss",
     "query": "NCC Scilla Calabria",
-    "rank": 3,
-    "title": "Krajowe Centrum Kompetencji Cyberbezpiecze\u0144stwa",
-    "url": "https://www.gov.pl/web/cyber-nccpl"
+    "rank": 7,
+    "title": "National Cadet Corps (India) - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/National_Cadet_Corps_(India)"
   }
 }

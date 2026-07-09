@@ -4,7 +4,7 @@
   "email": "ncc@ncc-nieruchomosci.pl",
   "whatsapp": "+48 664 961 007",
   "website": "https://www.ncc-nieruchomosci.pl/kontakt/",
-  "town": "Vibo Valentia",
+  "town": "Scilla",
   "languages": [
     "it"
   ],
@@ -16,12 +16,12 @@
     "private transfer"
   ],
   "coverage": [
-    "Vibo Valentia"
+    "Scilla"
   ],
   "source": {
     "provider": "bing-rss",
-    "query": "NCC Vibo Valentia Calabria",
-    "rank": 4,
+    "query": "NCC Scilla Calabria",
+    "rank": 5,
     "title": "Kontakt - NCC Nieruchomo\u015bci",
     "url": "https://www.ncc-nieruchomosci.pl/kontakt/"
   }

@@ -4,7 +4,7 @@
   "email": "",
   "whatsapp": "",
   "website": "https://nck.krakow.pl/wydarzenia/wydarzenia-koncerty/",
-  "town": "Vibo Valentia",
+  "town": "Scilla",
   "languages": [
     "it"
   ],
@@ -16,12 +16,12 @@
     "private transfer"
   ],
   "coverage": [
-    "Vibo Valentia"
+    "Scilla"
   ],
   "source": {
     "provider": "bing-rss",
-    "query": "NCC Vibo Valentia Calabria",
-    "rank": 7,
+    "query": "NCC Scilla Calabria",
+    "rank": 9,
     "title": "Koncerty - Nowohuckie Centrum Kultury Krak\u00f3w",
     "url": "https://nck.krakow.pl/wydarzenia/wydarzenia-koncerty/"
   }
