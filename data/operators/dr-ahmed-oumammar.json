@@ -1,0 +1,28 @@
+{
+  "name": "Dr Ahmed OUMAMMAR",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.doctoome.com/s/medecin-generaliste/aulnay-sous-bois-93600/ahmed-oumammar",
+  "town": "Crotone",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Crotone"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Crotone Calabria",
+    "rank": 6,
+    "title": "Dr Ahmed OUMAMMAR - M\u00e9decin g\u00e9n\u00e9raliste \u00e0 Aulnay-sous-Bois",
+    "url": "https://www.doctoome.com/s/medecin-generaliste/aulnay-sous-bois-93600/ahmed-oumammar"
+  }
+}

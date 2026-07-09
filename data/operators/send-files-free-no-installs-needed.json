@@ -4,7 +4,7 @@
   "email": "",
   "whatsapp": "",
   "website": "https://wetransfer.com/resources/free-file-transfer",
-  "town": "Soverato",
+  "town": "Rende",
   "languages": [
     "it"
   ],
@@ -16,11 +16,11 @@
     "private transfer"
   ],
   "coverage": [
-    "Soverato"
+    "Rende"
   ],
   "source": {
     "provider": "bing-rss",
-    "query": "transfer aeroporto Soverato Calabria",
+    "query": "transfer aeroporto Rende Calabria",
     "rank": 3,
     "title": "Send files free, no installs needed | WeTransfer",
     "url": "https://wetransfer.com/resources/free-file-transfer"

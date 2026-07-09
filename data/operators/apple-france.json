@@ -1,0 +1,28 @@
+{
+  "name": "Apple (France)",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.apple.com/fr/",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Vibo Valentia Calabria",
+    "rank": 1,
+    "title": "Apple (France)",
+    "url": "https://www.apple.com/fr/"
+  }
+}

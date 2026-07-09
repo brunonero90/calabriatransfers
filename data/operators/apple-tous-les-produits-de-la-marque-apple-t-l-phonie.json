@@ -1,0 +1,28 @@
+{
+  "name": "Apple : tous les produits de la marque Apple (T\u00e9l\u00e9phonie ...",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.fnac.com/Apple/m8766/w-4",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Vibo Valentia Calabria",
+    "rank": 7,
+    "title": "Apple : tous les produits de la marque Apple (T\u00e9l\u00e9phonie ... - Fnac",
+    "url": "https://www.fnac.com/Apple/m8766/w-4"
+  }
+}

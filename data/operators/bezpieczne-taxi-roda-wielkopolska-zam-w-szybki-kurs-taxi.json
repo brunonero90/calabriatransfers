@@ -1,0 +1,28 @@
+{
+  "name": "Bezpieczne taxi \u015aroda Wielkopolska zam\u00f3w szybki kurs taxi",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://taxi-24.com.pl/taxi-sroda-wielkopolska/",
+  "town": "Cosenza",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Cosenza"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Cosenza Calabria",
+    "rank": 1,
+    "title": "Bezpieczne taxi \u015aroda Wielkopolska zam\u00f3w szybki kurs taxi",
+    "url": "https://taxi-24.com.pl/taxi-sroda-wielkopolska/"
+  }
+}

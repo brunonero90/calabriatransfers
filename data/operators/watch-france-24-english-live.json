@@ -1,0 +1,28 @@
+{
+  "name": "Watch France 24 English Live",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.france24.com/en/live",
+  "town": "Crotone",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Crotone"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Crotone Calabria",
+    "rank": 4,
+    "title": "Watch France 24 English Live",
+    "url": "https://www.france24.com/en/live"
+  }
+}

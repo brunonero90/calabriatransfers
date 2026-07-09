@@ -1,0 +1,28 @@
+{
+  "name": "Tanie loty z: Warszawa Chopina \u2192 Bolonia (WAW",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.skyscanner.pl/trasy/waw/blq/warszawa-chopina-do-bolonia.html",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Vibo Valentia Calabria",
+    "rank": 10,
+    "title": "Tanie loty z: Warszawa Chopina \u2192 Bolonia (WAW - BLQ) | Skyscanner",
+    "url": "https://www.skyscanner.pl/trasy/waw/blq/warszawa-chopina-do-bolonia.html"
+  }
+}

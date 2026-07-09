@@ -1,0 +1,28 @@
+{
+  "name": "Ergebnisse",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.sportschau.de/live-und-ergebnisse/fussball/fifa-wm/spiele-und-ergebnisse",
+  "town": "Scilla",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Scilla"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Scilla Calabria",
+    "rank": 2,
+    "title": "Ergebnisse | Spielplan der Fu\u00dfball WM 2026 in den USA, Kanada und ...",
+    "url": "https://www.sportschau.de/live-und-ergebnisse/fussball/fifa-wm/spiele-und-ergebnisse"
+  }
+}

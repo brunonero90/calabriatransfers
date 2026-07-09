@@ -4,7 +4,7 @@
   "email": "",
   "whatsapp": "",
   "website": "https://www.transfernow.net/en",
-  "town": "Vibo Valentia",
+  "town": "Catanzaro",
   "languages": [
     "it"
   ],
@@ -16,12 +16,12 @@
     "private transfer"
   ],
   "coverage": [
-    "Vibo Valentia"
+    "Catanzaro"
   ],
   "source": {
     "provider": "bing-rss",
-    "query": "transfer aeroporto Vibo Valentia Calabria",
-    "rank": 4,
+    "query": "transfer aeroporto Catanzaro Calabria",
+    "rank": 3,
     "title": "Send Large Files - Free Secure File Transfer - TransferNow",
     "url": "https://www.transfernow.net/en"
   }

@@ -1,0 +1,28 @@
+{
+  "name": "Ver France 24 Espa\u00f1ol en vivo",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.france24.com/es/en-vivo",
+  "town": "Crotone",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Crotone"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Crotone Calabria",
+    "rank": 6,
+    "title": "Ver France 24 Espa\u00f1ol en vivo",
+    "url": "https://www.france24.com/es/en-vivo"
+  }
+}

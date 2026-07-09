@@ -1,0 +1,28 @@
+{
+  "name": "RealLifeCam (RLC)",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://reallifecam.com/hello?geo=DE",
+  "town": "Tropea",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Tropea"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Tropea Calabria",
+    "rank": 9,
+    "title": "RealLifeCam (RLC) - Leora and Paul - Living room",
+    "url": "https://reallifecam.com/hello?geo=DE"
+  }
+}

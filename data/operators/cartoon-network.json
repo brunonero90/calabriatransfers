@@ -1,0 +1,28 @@
+{
+  "name": "Cartoon Network",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "http://www.CartoonNetwork.com/",
+  "town": "Lamezia Terme",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Lamezia Terme"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Lamezia Terme Calabria",
+    "rank": 10,
+    "title": "Cartoon Network - Facebook",
+    "url": "https://www.facebook.com/CartoonNetwork/"
+  }
+}

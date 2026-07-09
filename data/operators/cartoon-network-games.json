@@ -1,0 +1,28 @@
+{
+  "name": "Cartoon Network Games",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://toongo.io/games/cartoon-network",
+  "town": "Lamezia Terme",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Lamezia Terme"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Lamezia Terme Calabria",
+    "rank": 3,
+    "title": "Cartoon Network Games - Play on Toongo",
+    "url": "https://toongo.io/games/cartoon-network"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Direction d'\u00e9cole",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://eduscol.education.gouv.fr/4398/direction-d-ecole",
+  "town": "Catanzaro",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Catanzaro"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Catanzaro Calabria",
+    "rank": 2,
+    "title": "Direction d'\u00e9cole | \u00e9duscol | Minist\u00e8re de l'\u00c9ducation nationale ...",
+    "url": "https://eduscol.education.gouv.fr/4398/direction-d-ecole"
+  }
+}

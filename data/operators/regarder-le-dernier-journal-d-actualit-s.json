@@ -1,0 +1,28 @@
+{
+  "name": "Regarder le dernier journal d'actualit\u00e9s",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.france24.com/fr/replay/journal-info",
+  "town": "Crotone",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Crotone"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Crotone Calabria",
+    "rank": 7,
+    "title": "Regarder le dernier journal d'actualit\u00e9s - France 24",
+    "url": "https://www.france24.com/fr/replay/journal-info"
+  }
+}

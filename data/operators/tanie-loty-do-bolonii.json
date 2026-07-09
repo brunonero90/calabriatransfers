@@ -1,0 +1,28 @@
+{
+  "name": "Tanie loty do Bolonii",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.tanie-loty.com.pl/tanie-loty-do-bolonii.html",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Vibo Valentia Calabria",
+    "rank": 9,
+    "title": "Tanie loty do Bolonii - zarezerwuj bilety lotnicze",
+    "url": "https://www.tanie-loty.com.pl/tanie-loty-do-bolonii.html"
+  }
+}

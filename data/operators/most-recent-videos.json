@@ -1,0 +1,28 @@
+{
+  "name": "Most Recent Videos",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://reallifecam.pro/videos",
+  "town": "Tropea",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Tropea"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Tropea Calabria",
+    "rank": 3,
+    "title": "Most Recent Videos - RealLifeCam",
+    "url": "https://reallifecam.pro/videos"
+  }
+}

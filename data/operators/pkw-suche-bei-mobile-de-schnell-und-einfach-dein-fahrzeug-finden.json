@@ -1,0 +1,28 @@
+{
+  "name": "PKW-Suche bei mobile.de \u2013 schnell und einfach dein Fahrzeug finden",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://suchen.mobile.de/fahrzeuge/detailsuche?vc=Car",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Reggio Calabria Calabria",
+    "rank": 4,
+    "title": "PKW-Suche bei mobile.de \u2013 schnell und einfach dein Fahrzeug finden",
+    "url": "https://suchen.mobile.de/fahrzeuge/detailsuche?vc=Car"
+  }
+}

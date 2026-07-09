@@ -1,0 +1,28 @@
+{
+  "name": "mobile.de: Tweedehands auto's",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.mobile.de/nl",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Reggio Calabria Calabria",
+    "rank": 3,
+    "title": "mobile.de: Tweedehands auto's - advertenties voor auto's/motoren",
+    "url": "https://www.mobile.de/nl"
+  }
+}

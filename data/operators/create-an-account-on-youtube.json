@@ -1,0 +1,28 @@
+{
+  "name": "Create an account on YouTube",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://support.google.com/youtube/answer/161805?hl=en&co=GENIE.Platform%3DDesktop",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Reggio Calabria Calabria",
+    "rank": 5,
+    "title": "Create an account on YouTube - Computer - YouTube Help",
+    "url": "https://support.google.com/youtube/answer/161805?hl=en&co=GENIE.Platform%3DDesktop"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Maatwerk in uitrustingsstukken",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.beco-group.com/",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Vibo Valentia Calabria",
+    "rank": 1,
+    "title": "Maatwerk in uitrustingsstukken | B.V. Beco Group Vianen",
+    "url": "https://www.beco-group.com/"
+  }
+}

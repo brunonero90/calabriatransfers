@@ -1,0 +1,28 @@
+{
+  "name": "TANIE TAXI",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.tanietaxi.pl/",
+  "town": "Cosenza",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Cosenza"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Cosenza Calabria",
+    "rank": 4,
+    "title": "TANIE TAXI - Por\u00f3wnaj ceny taks\u00f3wek w swoim mie\u015bcie",
+    "url": "https://www.tanietaxi.pl/"
+  }
+}

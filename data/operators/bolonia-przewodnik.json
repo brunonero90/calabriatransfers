@@ -1,0 +1,28 @@
+{
+  "name": "Bolonia Przewodnik",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.urlop.pl/przewodnik/wlochy/emilia-romania/bolonia/",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Vibo Valentia Calabria",
+    "rank": 8,
+    "title": "Bolonia Przewodnik - zabytki, ceny, pogoda, atrakcje - Urlop.pl",
+    "url": "https://www.urlop.pl/przewodnik/wlochy/emilia-romania/bolonia/"
+  }
+}

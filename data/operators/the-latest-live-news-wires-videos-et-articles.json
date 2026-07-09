@@ -1,0 +1,28 @@
+{
+  "name": "The latest live news wires, videos et articles",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.france24.com/en/live-news/",
+  "town": "Crotone",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Crotone"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Crotone Calabria",
+    "rank": 9,
+    "title": "The latest live news wires, videos et articles - France 24",
+    "url": "https://www.france24.com/en/live-news/"
+  }
+}

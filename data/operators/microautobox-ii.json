@@ -1,0 +1,28 @@
+{
+  "name": "MicroAutoBox II",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://d2368tcediwknr.cloudfront.net/bkm/microautobox_en/catalogs/microautobox_en/pdf/complete.pdf",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Reggio Calabria Calabria",
+    "rank": 7,
+    "title": "MicroAutoBox II - d2368tcediwknr.cloudfront.net",
+    "url": "https://d2368tcediwknr.cloudfront.net/bkm/microautobox_en/catalogs/microautobox_en/pdf/complete.pdf"
+  }
+}

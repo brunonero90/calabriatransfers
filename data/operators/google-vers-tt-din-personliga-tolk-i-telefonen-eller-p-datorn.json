@@ -1,0 +1,28 @@
+{
+  "name": "Google \u00d6vers\u00e4tt \u2013 din personliga tolk i telefonen eller p\u00e5 datorn",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://translate.google.com/intl/sv/about/",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Vibo Valentia Calabria",
+    "rank": 7,
+    "title": "Google \u00d6vers\u00e4tt \u2013 din personliga tolk i telefonen eller p\u00e5 datorn",
+    "url": "https://translate.google.com/intl/sv/about/"
+  }
+}

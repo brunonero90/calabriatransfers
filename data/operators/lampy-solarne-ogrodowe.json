@@ -1,0 +1,28 @@
+{
+  "name": "Lampy solarne ogrodowe",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://leddo.pl/oprawy-ogrodowe/lampy-solarne.html",
+  "town": "Lamezia Terme",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Lamezia Terme"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Lamezia Terme Calabria",
+    "rank": 4,
+    "title": "Lampy solarne ogrodowe - o\u015bwietlenie na taras i balkon | Leddo.pl",
+    "url": "https://leddo.pl/oprawy-ogrodowe/lampy-solarne.html"
+  }
+}

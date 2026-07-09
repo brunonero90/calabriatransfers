@@ -1,0 +1,28 @@
+{
+  "name": "Apple",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.youtube.com/@Apple/videos",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Vibo Valentia Calabria",
+    "rank": 9,
+    "title": "Apple - YouTube",
+    "url": "https://www.youtube.com/@Apple/videos"
+  }
+}

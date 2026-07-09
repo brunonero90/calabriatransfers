@@ -1,0 +1,28 @@
+{
+  "name": "GitHub",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://github.com/DevanWolf/YTPPlus3",
+  "town": "Rende",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Rende"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Rende Calabria",
+    "rank": 9,
+    "title": "GitHub - DevanWolf/YTPPlus3: YTP+3 (a.k.a. enhanced YTP+++), a ...",
+    "url": "https://github.com/DevanWolf/YTPPlus3"
+  }
+}

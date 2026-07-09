@@ -1,0 +1,28 @@
+{
+  "name": "Lowyat.NET",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://forum.lowyat.net/",
+  "town": "Tropea",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Tropea"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Tropea Calabria",
+    "rank": 2,
+    "title": "Lowyat.NET - Insanely Addictive Malaysia Forum",
+    "url": "https://forum.lowyat.net/"
+  }
+}

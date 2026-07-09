@@ -1,0 +1,28 @@
+{
+  "name": "Categories",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://reallifecam.pro/categories",
+  "town": "Tropea",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Tropea"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Tropea Calabria",
+    "rank": 7,
+    "title": "Categories - RealLifeCam",
+    "url": "https://reallifecam.pro/categories"
+  }
+}

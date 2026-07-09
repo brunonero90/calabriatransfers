@@ -1,0 +1,28 @@
+{
+  "name": "Windows help and learning",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://support.microsoft.com/en-us/windows/",
+  "town": "Catanzaro",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Catanzaro"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Catanzaro Calabria",
+    "rank": 2,
+    "title": "Windows help and learning | Microsoft Support",
+    "url": "https://support.microsoft.com/en-us/windows/"
+  }
+}

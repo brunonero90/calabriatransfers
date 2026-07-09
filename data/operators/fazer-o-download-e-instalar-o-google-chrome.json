@@ -1,0 +1,28 @@
+{
+  "name": "Fazer o download e instalar o Google Chrome",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://support.google.com/chrome/answer/95346?hl=pt-BR&co=GENIE.Platform%3DDesktop",
+  "town": "Rende",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Rende"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Rende Calabria",
+    "rank": 5,
+    "title": "Fazer o download e instalar o Google Chrome",
+    "url": "https://support.google.com/chrome/answer/95346?hl=pt-BR&co=GENIE.Platform%3DDesktop"
+  }
+}

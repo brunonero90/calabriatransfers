@@ -1,0 +1,28 @@
+{
+  "name": "CAPRAL",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://capral.pl/",
+  "town": "Lamezia Terme",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Lamezia Terme"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Lamezia Terme Calabria",
+    "rank": 6,
+    "title": "CAPRAL",
+    "url": "https://capral.pl/"
+  }
+}

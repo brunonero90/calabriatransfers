@@ -1,0 +1,28 @@
+{
+  "name": "Gemini Image \u2013 Nano Banana \u2014 Google DeepMind",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://deepmind.google/models/gemini-image/",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Reggio Calabria Calabria",
+    "rank": 7,
+    "title": "Gemini Image \u2013 Nano Banana \u2014 Google DeepMind",
+    "url": "https://deepmind.google/models/gemini-image/"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "RVC-Boss/GPT-SoVITS",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://github.com/RVC-Boss/GPT-SoVITS",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Reggio Calabria Calabria",
+    "rank": 7,
+    "title": "RVC-Boss/GPT-SoVITS - GitHub",
+    "url": "https://github.com/RVC-Boss/GPT-SoVITS"
+  }
+}

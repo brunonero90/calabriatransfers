@@ -1,0 +1,28 @@
+{
+  "name": "Zwiedzanie Bolonii \u2013 atrakcje, co zobaczy\u0107 i ile dni",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://zyciewpodrozy.pl/zwiedzanie-bolonii/",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Vibo Valentia Calabria",
+    "rank": 6,
+    "title": "Zwiedzanie Bolonii \u2013 atrakcje, co zobaczy\u0107 i ile dni",
+    "url": "https://zyciewpodrozy.pl/zwiedzanie-bolonii/"
+  }
+}

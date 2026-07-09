@@ -1,0 +1,28 @@
+{
+  "name": "Urinary catheterization",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://en.wikipedia.org/wiki/Urinary_catheterization",
+  "town": "Rende",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Rende"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Rende Calabria",
+    "rank": 3,
+    "title": "Urinary catheterization - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Urinary_catheterization"
+  }
+}

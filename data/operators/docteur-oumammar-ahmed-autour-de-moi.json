@@ -1,0 +1,28 @@
+{
+  "name": "Docteur Oumammar Ahmed \u2013 Autour de moi",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://autour-de-moi.pro/fiche/docteur-oumammar-ahmed/",
+  "town": "Crotone",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Crotone"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Crotone Calabria",
+    "rank": 2,
+    "title": "Docteur Oumammar Ahmed \u2013 Autour de moi",
+    "url": "https://autour-de-moi.pro/fiche/docteur-oumammar-ahmed/"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Contact Us",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://support.microsoft.com/en-gb/contactus",
+  "town": "Cosenza",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Cosenza"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Cosenza Calabria",
+    "rank": 1,
+    "title": "Contact Us - Microsoft Support",
+    "url": "https://support.microsoft.com/en-gb/contactus"
+  }
+}

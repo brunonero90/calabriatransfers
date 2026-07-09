@@ -1,0 +1,28 @@
+{
+  "name": "Gemini 3.1 Pro",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://deepmind.google/models/gemini/pro/",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Reggio Calabria Calabria",
+    "rank": 2,
+    "title": "Gemini 3.1 Pro - Google DeepMind",
+    "url": "https://deepmind.google/models/gemini/pro/"
+  }
+}

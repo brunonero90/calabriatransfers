@@ -1,0 +1,28 @@
+{
+  "name": "Lampy solarne, do ogrodu i na balkon, z czujnikiem ruchu",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://mrowka.com.pl/produkty/wokol-domu-lampy-solarne",
+  "town": "Lamezia Terme",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Lamezia Terme"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Lamezia Terme Calabria",
+    "rank": 10,
+    "title": "Lampy solarne, do ogrodu i na balkon, z czujnikiem ruchu - PSB",
+    "url": "https://mrowka.com.pl/produkty/wokol-domu-lampy-solarne"
+  }
+}

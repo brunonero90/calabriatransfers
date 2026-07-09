@@ -1,0 +1,28 @@
+{
+  "name": "Apple Store en ligne",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.apple.com/fr/store",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Vibo Valentia Calabria",
+    "rank": 2,
+    "title": "Apple Store en ligne - Apple (FR)",
+    "url": "https://www.apple.com/fr/store"
+  }
+}

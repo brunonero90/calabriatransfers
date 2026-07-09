@@ -1,0 +1,28 @@
+{
+  "name": "Verify your YouTube account",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://support.google.com/youtube/answer/171664?hl=en",
+  "town": "Catanzaro",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Catanzaro"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Catanzaro Calabria",
+    "rank": 2,
+    "title": "Verify your YouTube account - Google Help",
+    "url": "https://support.google.com/youtube/answer/171664?hl=en"
+  }
+}

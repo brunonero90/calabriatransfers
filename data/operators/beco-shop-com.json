@@ -1,0 +1,28 @@
+{
+  "name": "BECO-shop.com",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.beco-shop.com/",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Vibo Valentia Calabria",
+    "rank": 8,
+    "title": "BECO-shop.com",
+    "url": "https://www.beco-shop.com/"
+  }
+}

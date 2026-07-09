@@ -1,0 +1,28 @@
+{
+  "name": "Secondary Phone for Work",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://forum.lowyat.net/topic/5562126/all",
+  "town": "Tropea",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Tropea"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Tropea Calabria",
+    "rank": 9,
+    "title": "Secondary Phone for Work - Lowyat.NET",
+    "url": "https://forum.lowyat.net/topic/5562126/all"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Film annuel directions \u00e9cole",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://ien-epinay.circo.ac-creteil.fr/IMG/pdf/film_annuel_directions_e_cole.pdf",
+  "town": "Catanzaro",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Catanzaro"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Catanzaro Calabria",
+    "rank": 3,
+    "title": "Film annuel directions \u00e9cole",
+    "url": "https://ien-epinay.circo.ac-creteil.fr/IMG/pdf/film_annuel_directions_e_cole.pdf"
+  }
+}

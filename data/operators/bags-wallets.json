@@ -1,0 +1,28 @@
+{
+  "name": "Bags & Wallets",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.woolworths.co.za/cat/Bags-Wallets/_/N-1z13t66Zvmerbe",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Reggio Calabria Calabria",
+    "rank": 4,
+    "title": "Bags & Wallets - Woolworths.co.za",
+    "url": "https://www.woolworths.co.za/cat/Bags-Wallets/_/N-1z13t66Zvmerbe"
+  }
+}

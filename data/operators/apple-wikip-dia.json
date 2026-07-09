@@ -1,0 +1,28 @@
+{
+  "name": "Apple \u2014 Wikip\u00e9dia",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://fr.wikipedia.org/wiki/Apple",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Vibo Valentia Calabria",
+    "rank": 5,
+    "title": "Apple \u2014 Wikip\u00e9dia",
+    "url": "https://fr.wikipedia.org/wiki/Apple"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Retrouvez toute l'actualit\u00e9 internationale en continu",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.france24.com/fr/info-en-continu/",
+  "town": "Crotone",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Crotone"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Crotone Calabria",
+    "rank": 8,
+    "title": "Retrouvez toute l'actualit\u00e9 internationale en continu - France 24",
+    "url": "https://www.france24.com/fr/info-en-continu/"
+  }
+}

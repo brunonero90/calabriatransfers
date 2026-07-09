@@ -1,0 +1,28 @@
+{
+  "name": "iCloud",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.icloud.com/",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Vibo Valentia Calabria",
+    "rank": 3,
+    "title": "iCloud",
+    "url": "https://www.icloud.com/"
+  }
+}

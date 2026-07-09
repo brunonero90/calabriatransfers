@@ -1,0 +1,28 @@
+{
+  "name": "Google DeepMind",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "http://deepmind.google/",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Reggio Calabria Calabria",
+    "rank": 5,
+    "title": "Google DeepMind",
+    "url": "http://deepmind.google/"
+  }
+}

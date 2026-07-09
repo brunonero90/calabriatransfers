@@ -1,0 +1,28 @@
+{
+  "name": "Tanie loty do: Bolonia (BLQ) od 138 z\u0142",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.skyscanner.pl/loty-do/blq/tanie-loty-do-bolonia-lotnisko.html",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Vibo Valentia Calabria",
+    "rank": 3,
+    "title": "Tanie loty do: Bolonia (BLQ) od 138 z\u0142 - Skyscanner",
+    "url": "https://www.skyscanner.pl/loty-do/blq/tanie-loty-do-bolonia-lotnisko.html"
+  }
+}

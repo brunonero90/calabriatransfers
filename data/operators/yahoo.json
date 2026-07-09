@@ -1,0 +1,28 @@
+{
+  "name": "Yahoo",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.xn--yaoo-h84a.com/",
+  "town": "Crotone",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Crotone"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Crotone Calabria",
+    "rank": 8,
+    "title": "Yahoo | Mail, Weather, Search, Politics, News, Finance, Sports & Videos",
+    "url": "https://www.xn--yaoo-h84a.com/"
+  }
+}

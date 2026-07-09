@@ -1,0 +1,28 @@
+{
+  "name": "Beco Booster",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://beco-booster.org/",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Vibo Valentia Calabria",
+    "rank": 9,
+    "title": "Beco Booster",
+    "url": "https://beco-booster.org/"
+  }
+}

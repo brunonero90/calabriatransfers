@@ -1,0 +1,28 @@
+{
+  "name": "FSU-SNUipp de la Ni\u00e8vre (58)",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://58.snuipp.fr/spip.php?page=backend&id_rubrique=22",
+  "town": "Catanzaro",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Catanzaro"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Catanzaro Calabria",
+    "rank": 10,
+    "title": "FSU-SNUipp de la Ni\u00e8vre (58)",
+    "url": "https://58.snuipp.fr/spip.php?page=backend&id_rubrique=22"
+  }
+}

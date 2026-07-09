@@ -1,0 +1,28 @@
+{
+  "name": "Kopitiam",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://forum.lowyat.net/Kopitiam",
+  "town": "Tropea",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Tropea"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Tropea Calabria",
+    "rank": 1,
+    "title": "Kopitiam - Lowyat.NET",
+    "url": "https://forum.lowyat.net/Kopitiam"
+  }
+}

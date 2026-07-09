@@ -1,0 +1,28 @@
+{
+  "name": "Najlepsze Taxi \u015aroda Wielkopolska (wielkopolskie)",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://dobrataxi.pl/lokalizacja/sroda-wielkopolska-wielkopolskie/",
+  "town": "Cosenza",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Cosenza"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Cosenza Calabria",
+    "rank": 3,
+    "title": "Najlepsze Taxi \u015aroda Wielkopolska (wielkopolskie) - dobrataxi.pl",
+    "url": "https://dobrataxi.pl/lokalizacja/sroda-wielkopolska-wielkopolskie/"
+  }
+}

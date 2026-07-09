@@ -1,0 +1,28 @@
+{
+  "name": "Home",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://techcommunity.microsoft.com/",
+  "town": "Cosenza",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Cosenza"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Cosenza Calabria",
+    "rank": 5,
+    "title": "Home | Microsoft Community Hub",
+    "url": "https://techcommunity.microsoft.com/"
+  }
+}

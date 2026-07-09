@@ -1,0 +1,28 @@
+{
+  "name": "Microsoft Teams help & learning",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://support.microsoft.com/en-us/teams/",
+  "town": "Cosenza",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Cosenza"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Cosenza Calabria",
+    "rank": 7,
+    "title": "Microsoft Teams help & learning | Microsoft Support",
+    "url": "https://support.microsoft.com/en-us/teams/"
+  }
+}

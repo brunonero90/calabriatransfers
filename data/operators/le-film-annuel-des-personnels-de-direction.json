@@ -1,0 +1,28 @@
+{
+  "name": "Le film annuel des personnels de direction",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.ih2ef.gouv.fr/le-film-annuel-des-personnels-de-direction",
+  "town": "Catanzaro",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Catanzaro"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Catanzaro Calabria",
+    "rank": 7,
+    "title": "Le film annuel des personnels de direction - IH2EF",
+    "url": "https://www.ih2ef.gouv.fr/le-film-annuel-des-personnels-de-direction"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Facilitator in Microsoft Teams meetings",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://support.microsoft.com/en-US/teams/copilot/facilitator-in-microsoft-teams-meetings",
+  "town": "Cosenza",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Cosenza"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Cosenza Calabria",
+    "rank": 9,
+    "title": "Facilitator in Microsoft Teams meetings",
+    "url": "https://support.microsoft.com/en-US/teams/copilot/facilitator-in-microsoft-teams-meetings"
+  }
+}

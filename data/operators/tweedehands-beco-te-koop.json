@@ -1,0 +1,28 @@
+{
+  "name": "Tweedehands Beco te koop",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.traktorpool.nl/gebruikt/c-Beco/46/",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Vibo Valentia Calabria",
+    "rank": 3,
+    "title": "Tweedehands Beco te koop - traktorpool.nl",
+    "url": "https://www.traktorpool.nl/gebruikt/c-Beco/46/"
+  }
+}

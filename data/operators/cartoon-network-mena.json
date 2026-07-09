@@ -1,0 +1,28 @@
+{
+  "name": "Cartoon Network MENA",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.youtube.com/@cartoonnetworkmena",
+  "town": "Lamezia Terme",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Lamezia Terme"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Lamezia Terme Calabria",
+    "rank": 2,
+    "title": "Cartoon Network MENA - YouTube",
+    "url": "https://www.youtube.com/@cartoonnetworkmena"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Microsoft 365 Customer Service and Support",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://support.microsoft.com/en-us/office/microsoft-365-customer-service-and-support-96162163-b3aa-498b-bbbb-5e757b0f31da",
+  "town": "Cosenza",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Cosenza"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Cosenza Calabria",
+    "rank": 4,
+    "title": "Microsoft 365 Customer Service and Support",
+    "url": "https://support.microsoft.com/en-us/office/microsoft-365-customer-service-and-support-96162163-b3aa-498b-bbbb-5e757b0f31da"
+  }
+}

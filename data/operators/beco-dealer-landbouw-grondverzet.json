@@ -1,0 +1,28 @@
+{
+  "name": "BECO dealer landbouw & grondverzet",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.vandersluisbv.nl/merken/beco/",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Vibo Valentia Calabria",
+    "rank": 4,
+    "title": "BECO dealer landbouw & grondverzet | Van der Sluis",
+    "url": "https://www.vandersluisbv.nl/merken/beco/"
+  }
+}

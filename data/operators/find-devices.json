@@ -1,0 +1,28 @@
+{
+  "name": "Find Devices",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.icloud.com/find",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Vibo Valentia Calabria",
+    "rank": 4,
+    "title": "Find Devices - Apple iCloud",
+    "url": "https://www.icloud.com/find"
+  }
+}

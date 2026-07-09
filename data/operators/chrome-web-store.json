@@ -1,0 +1,28 @@
+{
+  "name": "Chrome Web Store",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://chromewebstore.google.com/category/apps",
+  "town": "Tropea",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Tropea"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Tropea Calabria",
+    "rank": 8,
+    "title": "Chrome Web Store",
+    "url": "https://chromewebstore.google.com/category/apps"
+  }
+}

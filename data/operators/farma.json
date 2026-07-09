@@ -1,0 +1,28 @@
+{
+  "name": "Farma",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.lucnidvur.cz/farma/",
+  "town": "Scilla",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Scilla"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Scilla Calabria",
+    "rank": 2,
+    "title": "Farma | Farma Lu\u010dn\u00ed dv\u016fr Barto\u0161ovice - lucnidvur.cz",
+    "url": "https://www.lucnidvur.cz/farma/"
+  }
+}

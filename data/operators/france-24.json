@@ -1,0 +1,28 @@
+{
+  "name": "France 24",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.france24.com/es/",
+  "town": "Crotone",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Crotone"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Crotone Calabria",
+    "rank": 5,
+    "title": "France 24 - Noticias y actualidad internacional en vivo",
+    "url": "https://www.france24.com/es/"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Schizophrenic ytp collection",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.youtube.com/playlist?list=PL8CaW_Lb0KwUNRQBOApAd77TGXGXuaiZK",
+  "town": "Rende",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Rende"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Rende Calabria",
+    "rank": 2,
+    "title": "Schizophrenic ytp collection - YouTube",
+    "url": "https://www.youtube.com/playlist?list=PL8CaW_Lb0KwUNRQBOApAd77TGXGXuaiZK"
+  }
+}

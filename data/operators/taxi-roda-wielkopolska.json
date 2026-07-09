@@ -1,0 +1,28 @@
+{
+  "name": "Taxi \u015aroda Wielkopolska",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://serwisuslug.pl/taxi-sroda-wielkopolska/",
+  "town": "Cosenza",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Cosenza"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Cosenza Calabria",
+    "rank": 6,
+    "title": "Taxi \u015aroda Wielkopolska - taks\u00f3wki w \u015arodzie Wielkopolskiej",
+    "url": "https://serwisuslug.pl/taxi-sroda-wielkopolska/"
+  }
+}

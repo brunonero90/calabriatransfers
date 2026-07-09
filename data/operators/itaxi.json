@@ -21,7 +21,7 @@
   "source": {
     "provider": "bing-rss",
     "query": "taxi Vibo Valentia Calabria",
-    "rank": 3,
+    "rank": 10,
     "title": "iTaxi | Z nami do celu",
     "url": "https://www.itaxi.pl/"
   }

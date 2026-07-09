@@ -1,0 +1,28 @@
+{
+  "name": "DSpace robot controller",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "http://www.taniwha.com/~paul/dspace.robot/hardware.html",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Reggio Calabria Calabria",
+    "rank": 6,
+    "title": "DSpace robot controller - hardware documentation",
+    "url": "http://www.taniwha.com/~paul/dspace.robot/hardware.html"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Gebrauchtwagen von Privatanbietern kaufen bei mobile",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://suchen.mobile.de/auto/privatanbieter.html",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Reggio Calabria Calabria",
+    "rank": 10,
+    "title": "Gebrauchtwagen von Privatanbietern kaufen bei mobile",
+    "url": "https://suchen.mobile.de/auto/privatanbieter.html"
+  }
+}

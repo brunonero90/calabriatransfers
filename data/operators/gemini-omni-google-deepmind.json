@@ -1,0 +1,28 @@
+{
+  "name": "Gemini Omni \u2014 Google DeepMind",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://deepmind.google/models/gemini-omni/",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Reggio Calabria Calabria",
+    "rank": 3,
+    "title": "Gemini Omni \u2014 Google DeepMind",
+    "url": "https://deepmind.google/models/gemini-omni/"
+  }
+}

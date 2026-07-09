@@ -1,0 +1,28 @@
+{
+  "name": "GitHub Copilot \u00b7 Your AI pair programmer",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://github.com/features/copilot",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Reggio Calabria Calabria",
+    "rank": 1,
+    "title": "GitHub Copilot \u00b7 Your AI pair programmer",
+    "url": "https://github.com/features/copilot"
+  }
+}

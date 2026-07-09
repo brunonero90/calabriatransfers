@@ -1,0 +1,28 @@
+{
+  "name": "Apple Inc.",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://en.wikipedia.org/wiki/Apple_Inc.",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Vibo Valentia Calabria",
+    "rank": 6,
+    "title": "Apple Inc. - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Apple_Inc."
+  }
+}

@@ -1,4 +1,5 @@
 import hashlib
+import html
 import json
 import os
 import re
@@ -26,6 +27,7 @@ DIRS = [
 ]
 DB_PATH = DATA / "checkpoints" / "state.db"
 SITE_PATH = ROOT / "site"
+ASSETS_PATH = SITE_PATH / "assets"
 
 USER_AGENT = "CalabriaTransfersBot/1.0 (+local-builder)"
 CYCLE_SECONDS = 120
@@ -90,6 +92,140 @@ def ensure_dirs() -> None:
     (SITE_PATH / "routes").mkdir(parents=True, exist_ok=True)
     (SITE_PATH / "airports").mkdir(parents=True, exist_ok=True)
     (SITE_PATH / "guides").mkdir(parents=True, exist_ok=True)
+    ASSETS_PATH.mkdir(parents=True, exist_ok=True)
+
+
+def write_theme_assets() -> None:
+    css = """
+:root {
+  --bg: #07121f;
+  --bg-soft: #0d1b2b;
+  --card: #12263a;
+  --line: #264760;
+  --text: #e8f2fb;
+  --muted: #9bb7cf;
+  --brand: #39a0ff;
+  --brand-2: #52d6be;
+  --ok: #28c76f;
+  --warn: #fcbf49;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Inter, Segoe UI, Arial, sans-serif;
+  background: radial-gradient(circle at top, #0f2741, var(--bg) 45%);
+  color: var(--text);
+}
+.container { max-width: 1100px; margin: 0 auto; padding: 24px; }
+.topbar {
+  position: sticky; top: 0; z-index: 10; backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line); background: rgba(7,18,31,0.75);
+}
+.brand { font-weight: 800; letter-spacing: 0.2px; color: #fff; text-decoration: none; }
+.nav { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.links a { color: var(--muted); text-decoration: none; margin-left: 14px; }
+.links a:hover { color: #fff; }
+.hero {
+  border: 1px solid var(--line); border-radius: 16px; padding: 28px;
+  background: linear-gradient(145deg, rgba(57,160,255,.2), rgba(82,214,190,.1));
+}
+.hero h1 { margin: 0 0 10px; font-size: 2rem; }
+.hero p { margin: 0; color: var(--muted); }
+.stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-top: 16px; }
+.stat { border: 1px solid var(--line); border-radius: 12px; background: var(--bg-soft); padding: 14px; }
+.stat .v { font-weight: 800; font-size: 1.25rem; }
+.section { margin-top: 22px; }
+.section h2 { margin: 0 0 10px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
+.card {
+  border: 1px solid var(--line); border-radius: 12px; padding: 14px;
+  background: linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.00));
+}
+.card h3 { margin: 0 0 8px; font-size: 1rem; }
+.muted { color: var(--muted); }
+.pill {
+  display: inline-block; padding: 3px 10px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); font-size: .8rem;
+}
+.score-ok { color: var(--ok); }
+.score-warn { color: var(--warn); }
+a.cta {
+  display: inline-block; margin-top: 10px; padding: 8px 11px; border-radius: 8px;
+  text-decoration: none; color: #fff; background: linear-gradient(90deg, var(--brand), #2f7fd5);
+}
+.meta { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 8px; margin-top: 12px; }
+.meta .row { border: 1px solid var(--line); border-radius: 10px; padding: 8px; background: var(--bg-soft); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.chips span { font-size: .8rem; padding: 4px 8px; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); }
+.footer { color: var(--muted); margin-top: 24px; font-size: .9rem; }
+@media (max-width: 768px) {
+  .stats { grid-template-columns: 1fr; }
+  .hero h1 { font-size: 1.6rem; }
+}
+""".strip()
+    (ASSETS_PATH / "style.css").write_text(css, encoding="utf-8")
+
+
+def page_shell(title: str, description: str, body_html: str) -> str:
+    safe_title = html.escape(title)
+    safe_desc = html.escape(description)
+    return f"""<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{safe_title}</title>
+  <meta name="description" content="{safe_desc}" />
+  <link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="../index.html">CalabriaTransfers</a>
+      <nav class="links">
+        <a href="../index.html">Home</a>
+        <a href="../towns/index.html">Towns</a>
+        <a href="../operators/index.html">Operators</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    {body_html}
+    <p class="footer">CalabriaTransfers directory - continuously updated.</p>
+  </main>
+</body>
+</html>"""
+
+
+def page_shell_root(title: str, description: str, body_html: str) -> str:
+    safe_title = html.escape(title)
+    safe_desc = html.escape(description)
+    return f"""<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{safe_title}</title>
+  <meta name="description" content="{safe_desc}" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="index.html">CalabriaTransfers</a>
+      <nav class="links">
+        <a href="index.html">Home</a>
+        <a href="towns/index.html">Towns</a>
+        <a href="operators/index.html">Operators</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    {body_html}
+    <p class="footer">CalabriaTransfers directory - continuously updated.</p>
+  </main>
+</body>
+</html>"""
 
 
 def connect_db() -> sqlite3.Connection:
@@ -504,25 +640,44 @@ def generate_operator_page(conn: sqlite3.Connection, payload: Dict) -> None:
     if score < 50:
         return
     slug = slugify(profile["name"])
-    page = SITE_PATH / "operators" / f"{slug}.md"
-    content = "\n".join(
-        [
-            f"# {profile['name']}",
-            "",
-            f"- Town: {profile.get('town', '')}",
-            f"- Phone: {profile.get('phone', '')}",
-            f"- Email: {profile.get('email', '')}",
-            f"- WhatsApp: {profile.get('whatsapp', '')}",
-            f"- Website: {profile.get('website', '')}",
-            f"- Languages: {', '.join(profile.get('languages', []))}",
-            f"- Vehicles: {', '.join(profile.get('vehicles', []))}",
-            f"- Services: {', '.join(profile.get('services', []))}",
-            f"- Coverage: {', '.join(profile.get('coverage', []))}",
-            f"- Completeness: {score}%",
-            "",
-            "CalabriaTransfers verified profile snapshot.",
-        ]
-    )
+    page = SITE_PATH / "operators" / f"{slug}.html"
+    name = html.escape(profile["name"])
+    town = html.escape(profile.get("town", ""))
+    phone = html.escape(profile.get("phone", ""))
+    email = html.escape(profile.get("email", ""))
+    whatsapp = html.escape(profile.get("whatsapp", ""))
+    website = html.escape(profile.get("website", ""))
+    languages = ", ".join(profile.get("languages", []))
+    vehicles = ", ".join(profile.get("vehicles", []))
+    services = ", ".join(profile.get("services", []))
+    coverage = ", ".join(profile.get("coverage", []))
+    score_cls = "score-ok" if score >= 90 else "score-warn"
+    website_cta = f'<a class="cta" href="{website}" target="_blank" rel="noopener">Visit website</a>' if website else ""
+    body = f"""
+    <section class="hero">
+      <span class="pill">Operator profile</span>
+      <h1>{name}</h1>
+      <p class="muted">Private transfer and taxi services in Calabria.</p>
+      <div class="stats"><div class="stat"><div class="v {score_cls}">{score}%</div><div class="muted">Completeness</div></div></div>
+      {website_cta}
+    </section>
+    <section class="section">
+      <h2>Details</h2>
+      <div class="meta">
+        <div class="row"><strong>Town</strong><br>{town or "-"}</div>
+        <div class="row"><strong>Phone</strong><br>{phone or "-"}</div>
+        <div class="row"><strong>Email</strong><br>{email or "-"}</div>
+        <div class="row"><strong>WhatsApp</strong><br>{whatsapp or "-"}</div>
+      </div>
+      <div class="chips">
+        <span>Languages: {html.escape(languages or "-")}</span>
+        <span>Vehicles: {html.escape(vehicles or "-")}</span>
+        <span>Services: {html.escape(services or "-")}</span>
+        <span>Coverage: {html.escape(coverage or "-")}</span>
+      </div>
+    </section>
+    """
+    content = page_shell(f"{profile['name']} | CalabriaTransfers", f"Transport profile for {profile['name']} in Calabria.", body)
     page.write_text(content, encoding="utf-8")
 
 
@@ -540,56 +695,89 @@ def generate_town_page(conn: sqlite3.Connection, payload: Dict) -> None:
     for r in rows[:50]:
         p = json.loads(r["profile_json"])
         slug = slugify(p["name"])
-        items.append(f"- [{p['name']}](../operators/{slug}.md) - {r['quality_score']}%")
-    page = SITE_PATH / "towns" / f"{slugify(town)}.md"
-    content = "\n".join(
-        [
-            f"# Transport Operators in {town}",
-            "",
-            f"Local transfer and NCC options in {town}, Calabria.",
-            "",
-            "## Operators",
-            *items,
-        ]
+        n = html.escape(p["name"])
+        score = r["quality_score"]
+        score_cls = "score-ok" if score >= 90 else "score-warn"
+        items.append(
+            f'<article class="card"><h3>{n}</h3><p class="muted">{html.escape(town)}</p><p class="{score_cls}"><strong>{score}% complete</strong></p><a class="cta" href="../operators/{slug}.html">View profile</a></article>'
+        )
+    page = SITE_PATH / "towns" / f"{slugify(town)}.html"
+    body = f"""
+    <section class="hero">
+      <span class="pill">Town directory</span>
+      <h1>Transport Operators in {html.escape(town)}</h1>
+      <p>Curated transfer and NCC options with quality scoring.</p>
+      <div class="stats"><div class="stat"><div class="v">{len(rows)}</div><div class="muted">Operators listed</div></div></div>
+    </section>
+    <section class="section">
+      <h2>Operator list</h2>
+      <div class="grid">{"".join(items)}</div>
+    </section>
+    """
+    content = page_shell(
+        f"{town} Transport Directory | CalabriaTransfers",
+        f"Best transport operators in {town}, Calabria.",
+        body,
     )
     page.write_text(content, encoding="utf-8")
 
 
 def generate_homepage(conn: sqlite3.Connection) -> None:
+    write_theme_assets()
     operator_count = int(conn.execute("SELECT COUNT(*) AS c FROM operators").fetchone()["c"])
-    town_files = sorted((SITE_PATH / "towns").glob("*.md"))
-    operator_files = sorted((SITE_PATH / "operators").glob("*.md"))
+    town_files = sorted((SITE_PATH / "towns").glob("*.html"))
+    operator_files = sorted((SITE_PATH / "operators").glob("*.html"))
     latest_ops = operator_files[-25:]
-    town_links = "\n".join([f"<li><a href=\"towns/{p.name}\">{p.stem.replace('-', ' ').title()}</a></li>" for p in town_files])
-    op_links = "\n".join([f"<li><a href=\"operators/{p.name}\">{p.stem.replace('-', ' ').title()}</a></li>" for p in latest_ops])
-    html = f"""<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CalabriaTransfers Directory</title>
-  <meta name="description" content="Transport operator directory for Calabria: taxis, NCC, airport and private transfer services." />
-  <style>
-    body {{ font-family: Arial, sans-serif; margin: 2rem; line-height: 1.4; }}
-    h1, h2 {{ margin-bottom: .5rem; }}
-    .muted {{ color: #666; }}
-    ul {{ padding-left: 1.2rem; }}
-    a {{ color: #0b62d6; text-decoration: none; }}
-    a:hover {{ text-decoration: underline; }}
-  </style>
-</head>
-<body>
-  <h1>CalabriaTransfers</h1>
-  <p class="muted">Transport directory for Calabria.</p>
-  <p><strong>Operators indexed:</strong> {operator_count}</p>
-  <h2>Towns</h2>
-  <ul>{town_links or "<li>Town pages will appear as coverage grows.</li>"}</ul>
-  <h2>Latest operators</h2>
-  <ul>{op_links or "<li>Operator pages are being generated.</li>"}</ul>
-</body>
-</html>
-"""
-    (SITE_PATH / "index.html").write_text(html, encoding="utf-8")
+    town_cards = "".join(
+        [
+            f'<article class="card"><h3>{html.escape(p.stem.replace("-", " ").title())}</h3><a class="cta" href="towns/{p.name}">Explore town</a></article>'
+            for p in town_files
+        ]
+    )
+    op_cards = "".join(
+        [
+            f'<article class="card"><h3>{html.escape(p.stem.replace("-", " ").title())}</h3><a class="cta" href="operators/{p.name}">View profile</a></article>'
+            for p in latest_ops
+        ]
+    )
+    operators_index = "".join(
+        [f'<li><a href="{p.name}">{html.escape(p.stem.replace("-", " ").title())}</a></li>' for p in operator_files]
+    )
+    towns_index = "".join([f'<li><a href="{p.name}">{html.escape(p.stem.replace("-", " ").title())}</a></li>' for p in town_files])
+    home_body = f"""
+    <section class="hero">
+      <span class="pill">Calabria master directory</span>
+      <h1>Premium Transport Directory for Calabria</h1>
+      <p>Airport transfers, NCC services, private chauffeurs, and town coverage in one trusted source.</p>
+      <div class="stats">
+        <div class="stat"><div class="v">{operator_count}</div><div class="muted">Operators indexed</div></div>
+        <div class="stat"><div class="v">{len(town_files)}</div><div class="muted">Town hubs</div></div>
+        <div class="stat"><div class="v">24/7</div><div class="muted">Automated refresh loop</div></div>
+      </div>
+    </section>
+    <section class="section"><h2>Browse by town</h2><div class="grid">{town_cards or '<article class="card"><p class="muted">Town pages are being generated.</p></article>'}</div></section>
+    <section class="section"><h2>Latest operators</h2><div class="grid">{op_cards or '<article class="card"><p class="muted">Operator pages are being generated.</p></article>'}</div></section>
+    """
+    (SITE_PATH / "index.html").write_text(
+        page_shell_root("CalabriaTransfers | Transport Directory", "The authoritative Calabria transport directory.", home_body),
+        encoding="utf-8",
+    )
+    (SITE_PATH / "operators" / "index.html").write_text(
+        page_shell(
+            "Operators | CalabriaTransfers",
+            "All operator profiles in Calabria.",
+            f'<section class="hero"><h1>All Operators</h1><p class="muted">Complete directory index.</p></section><section class="section"><ul>{operators_index}</ul></section>',
+        ),
+        encoding="utf-8",
+    )
+    (SITE_PATH / "towns" / "index.html").write_text(
+        page_shell(
+            "Towns | CalabriaTransfers",
+            "Town transport directory pages in Calabria.",
+            f'<section class="hero"><h1>Town Pages</h1><p class="muted">Coverage hubs.</p></section><section class="section"><ul>{towns_index}</ul></section>',
+        ),
+        encoding="utf-8",
+    )
 
 
 def recover_stuck_queue(conn: sqlite3.Connection) -> int:

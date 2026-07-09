@@ -1,0 +1,28 @@
+{
+  "name": "Taxi osobowe \u015aroda Wielkopolska",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://dobrataxi.pl/taxi/taxi-osobowe-sroda-wielkopolska/",
+  "town": "Cosenza",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Cosenza"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Cosenza Calabria",
+    "rank": 8,
+    "title": "Taxi osobowe \u015aroda Wielkopolska - dobrataxi.pl",
+    "url": "https://dobrataxi.pl/taxi/taxi-osobowe-sroda-wielkopolska/"
+  }
+}

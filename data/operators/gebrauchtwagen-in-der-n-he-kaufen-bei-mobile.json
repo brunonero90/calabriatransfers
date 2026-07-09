@@ -1,0 +1,28 @@
+{
+  "name": "Gebrauchtwagen in der N\u00e4he kaufen bei mobile",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://suchen.mobile.de/auto/gebrauchtwagen.html",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Reggio Calabria Calabria",
+    "rank": 2,
+    "title": "Gebrauchtwagen in der N\u00e4he kaufen bei mobile",
+    "url": "https://suchen.mobile.de/auto/gebrauchtwagen.html"
+  }
+}

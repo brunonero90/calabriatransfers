@@ -1,0 +1,28 @@
+{
+  "name": "Google Chrome Help",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://support.google.com/chrome/?hl=en",
+  "town": "Rende",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Rende"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Rende Calabria",
+    "rank": 9,
+    "title": "Google Chrome Help",
+    "url": "https://support.google.com/chrome/?hl=en"
+  }
+}

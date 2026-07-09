@@ -1,0 +1,28 @@
+{
+  "name": "Regarder France 24 en direct",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.france24.com/fr/direct",
+  "town": "Crotone",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Crotone"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Crotone Calabria",
+    "rank": 1,
+    "title": "Regarder France 24 en direct",
+    "url": "https://www.france24.com/fr/direct"
+  }
+}

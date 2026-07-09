@@ -1,0 +1,28 @@
+{
+  "name": "Lampki solarne",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://led-lux.pl/pol_m_Oswietlenie-solarne-386.html",
+  "town": "Lamezia Terme",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Lamezia Terme"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Lamezia Terme Calabria",
+    "rank": 9,
+    "title": "Lampki solarne - o\u015bwietlenie na balkon i do ogrodu w sklepie ... - Ledlux",
+    "url": "https://led-lux.pl/pol_m_Oswietlenie-solarne-386.html"
+  }
+}

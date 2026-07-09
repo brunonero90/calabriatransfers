@@ -1,0 +1,28 @@
+{
+  "name": "Country Road Wallet",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.etsy.com/market/country_road_wallet",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Reggio Calabria Calabria",
+    "rank": 7,
+    "title": "Country Road Wallet - Etsy",
+    "url": "https://www.etsy.com/market/country_road_wallet"
+  }
+}

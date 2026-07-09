@@ -1,0 +1,28 @@
+{
+  "name": "Loty do Bolonii",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.lot.com/pl/pl/loty/loty-do-europy/loty-do-wloch/loty-do-bolonii",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Vibo Valentia Calabria",
+    "rank": 2,
+    "title": "Loty do Bolonii | LOT.com",
+    "url": "https://www.lot.com/pl/pl/loty/loty-do-europy/loty-do-wloch/loty-do-bolonii"
+  }
+}

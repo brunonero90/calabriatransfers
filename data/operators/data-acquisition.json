@@ -1,0 +1,28 @@
+{
+  "name": "Data acquisition",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.microtech-lab.com/en/Data-acquisition/",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Reggio Calabria Calabria",
+    "rank": 9,
+    "title": "Data acquisition - microtech-lab.com",
+    "url": "https://www.microtech-lab.com/en/Data-acquisition/"
+  }
+}

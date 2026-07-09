@@ -1,0 +1,28 @@
+{
+  "name": "Soporte t\u00e9cnico de Microsoft",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://support.microsoft.com/es-es/",
+  "town": "Cosenza",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Cosenza"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Cosenza Calabria",
+    "rank": 2,
+    "title": "Soporte t\u00e9cnico de Microsoft | Microsoft Support",
+    "url": "https://support.microsoft.com/es-es/"
+  }
+}

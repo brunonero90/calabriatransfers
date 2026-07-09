@@ -1,0 +1,28 @@
+{
+  "name": "Bolonia",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.podrozepoeuropie.pl/bolonia-zwiedzanie/",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Vibo Valentia Calabria",
+    "rank": 7,
+    "title": "Bolonia - 16 atrakcji, kt\u00f3re warto zwiedzi\u0107 i zobaczy\u0107",
+    "url": "https://www.podrozepoeuropie.pl/bolonia-zwiedzanie/"
+  }
+}

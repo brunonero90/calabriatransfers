@@ -1,0 +1,28 @@
+{
+  "name": "Nouvelle boite mail",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://la-communaute.sfr.fr/t5/sfr-mail/nouvelle-boite-mail/td-p/2274367",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Reggio Calabria Calabria",
+    "rank": 5,
+    "title": "Nouvelle boite mail - La Communaut\u00e9 SFR",
+    "url": "https://la-communaute.sfr.fr/t5/sfr-mail/nouvelle-boite-mail/td-p/2274367"
+  }
+}

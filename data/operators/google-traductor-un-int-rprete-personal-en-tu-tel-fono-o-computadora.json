@@ -1,0 +1,28 @@
+{
+  "name": "Google Traductor: Un int\u00e9rprete personal en tu tel\u00e9fono o computadora",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://translate.google.com/intl/es-419/about/",
+  "town": "Vibo Valentia",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Vibo Valentia"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Vibo Valentia Calabria",
+    "rank": 10,
+    "title": "Google Traductor: Un int\u00e9rprete personal en tu tel\u00e9fono o computadora",
+    "url": "https://translate.google.com/intl/es-419/about/"
+  }
+}

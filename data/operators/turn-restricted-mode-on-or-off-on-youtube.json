@@ -1,0 +1,28 @@
+{
+  "name": "Turn Restricted Mode on or off on YouTube",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://support.google.com/youtube/answer/174084?hl=en&co=GENIE.Platform%3DDesktop",
+  "town": "Catanzaro",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Catanzaro"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Catanzaro Calabria",
+    "rank": 1,
+    "title": "Turn Restricted Mode on or off on YouTube - Google Help",
+    "url": "https://support.google.com/youtube/answer/174084?hl=en&co=GENIE.Platform%3DDesktop"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Lampy solarne",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://przydasie.pl/oswietlenie-2/lampy-solarne/",
+  "town": "Lamezia Terme",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Lamezia Terme"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Lamezia Terme Calabria",
+    "rank": 1,
+    "title": "Lampy solarne - PrzydaSie.pl - zawsze i wsz\u0119dzie PrzydaSie!",
+    "url": "https://przydasie.pl/oswietlenie-2/lampy-solarne/"
+  }
+}

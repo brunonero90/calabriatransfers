@@ -1,0 +1,28 @@
+{
+  "name": "France 24 : info, vid\u00e9os, reportages et analyses",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.france24.com/fr/tag/france-24-1/",
+  "town": "Crotone",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Crotone"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Crotone Calabria",
+    "rank": 10,
+    "title": "France 24 : info, vid\u00e9os, reportages et analyses - France 24",
+    "url": "https://www.france24.com/fr/tag/france-24-1/"
+  }
+}

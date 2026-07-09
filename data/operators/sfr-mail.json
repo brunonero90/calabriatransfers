@@ -1,0 +1,28 @@
+{
+  "name": "SFR Mail",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://la-communaute.sfr.fr/t5/sfr-mail/bd-p/SFR-Mail",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Reggio Calabria Calabria",
+    "rank": 7,
+    "title": "SFR Mail - La Communaut\u00e9 SFR",
+    "url": "https://la-communaute.sfr.fr/t5/sfr-mail/bd-p/SFR-Mail"
+  }
+}
