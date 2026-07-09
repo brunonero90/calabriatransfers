@@ -4,7 +4,7 @@
   "email": "",
   "whatsapp": "",
   "website": "https://www.transfermarkt.com/",
-  "town": "Catanzaro",
+  "town": "Soverato",
   "languages": [
     "it"
   ],
@@ -16,11 +16,11 @@
     "private transfer"
   ],
   "coverage": [
-    "Catanzaro"
+    "Soverato"
   ],
   "source": {
     "provider": "bing-rss",
-    "query": "transfer aeroporto Catanzaro Calabria",
+    "query": "transfer aeroporto Soverato Calabria",
     "rank": 6,
     "title": "Football transfers, rumours, market values and news",
     "url": "https://www.transfermarkt.com/"

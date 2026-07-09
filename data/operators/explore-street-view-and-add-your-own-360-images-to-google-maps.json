@@ -1,0 +1,28 @@
+{
+  "name": "Explore Street View and add your own 360 images to Google Maps.",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.google.com/streetview/",
+  "town": "Rende",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Rende"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Rende Calabria",
+    "rank": 5,
+    "title": "Explore Street View and add your own 360 images to Google Maps.",
+    "url": "https://www.google.com/streetview/"
+  }
+}

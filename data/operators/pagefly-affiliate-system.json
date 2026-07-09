@@ -1,0 +1,28 @@
+{
+  "name": "PageFly Affiliate System",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://partners.pagefly.io/",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Reggio Calabria Calabria",
+    "rank": 2,
+    "title": "PageFly Affiliate System",
+    "url": "https://partners.pagefly.io/"
+  }
+}

@@ -20,7 +20,7 @@
   ],
   "source": {
     "provider": "bing-rss",
-    "query": "taxi Cosenza Calabria",
+    "query": "NCC Cosenza Calabria",
     "rank": 1,
     "title": "Microsoft \u2013 AI, Cloud, Productivity, Computing, Gaming & Apps",
     "url": "https://www.microsoft.com/en-us"

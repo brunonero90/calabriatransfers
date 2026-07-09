@@ -4,7 +4,7 @@
   "email": "",
   "whatsapp": "",
   "website": "https://wetransfer.com/resources/free-file-transfer",
-  "town": "Rende",
+  "town": "Catanzaro",
   "languages": [
     "it"
   ],
@@ -16,11 +16,11 @@
     "private transfer"
   ],
   "coverage": [
-    "Rende"
+    "Catanzaro"
   ],
   "source": {
     "provider": "bing-rss",
-    "query": "transfer aeroporto Rende Calabria",
+    "query": "transfer aeroporto Catanzaro Calabria",
     "rank": 3,
     "title": "Send files free, no installs needed | WeTransfer",
     "url": "https://wetransfer.com/resources/free-file-transfer"

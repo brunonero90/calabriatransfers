@@ -1,0 +1,28 @@
+{
+  "name": "Make Google your default search engine",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://support.google.com/websearch/answer/464?hl=en",
+  "town": "Rende",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Rende"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Rende Calabria",
+    "rank": 9,
+    "title": "Make Google your default search engine - Google Search Help",
+    "url": "https://support.google.com/websearch/answer/464?hl=en"
+  }
+}

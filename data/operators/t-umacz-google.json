@@ -1,0 +1,28 @@
+{
+  "name": "T\u0142umacz Google",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://translate.google.pl/",
+  "town": "Scilla",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Scilla"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Scilla Calabria",
+    "rank": 8,
+    "title": "T\u0142umacz Google",
+    "url": "https://translate.google.pl/"
+  }
+}

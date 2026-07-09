@@ -1,0 +1,28 @@
+{
+  "name": "H\u00e0m QUERY",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://support.google.com/docs/answer/3093343?hl=vi",
+  "town": "Rende",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Rende"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Rende Calabria",
+    "rank": 10,
+    "title": "H\u00e0m QUERY - Tr\u00ecnh ch\u1ec9nh s\u1eeda Google T\u00e0i li\u1ec7u Tr\u1ee3 gi\u00fap",
+    "url": "https://support.google.com/docs/answer/3093343?hl=vi"
+  }
+}

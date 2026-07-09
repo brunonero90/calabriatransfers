@@ -20,8 +20,8 @@
   ],
   "source": {
     "provider": "bing-rss",
-    "query": "taxi Cosenza Calabria",
-    "rank": 7,
+    "query": "NCC Cosenza Calabria",
+    "rank": 10,
     "title": "Microsoft Store | XBOX",
     "url": "https://www.xbox.com/en-us/microsoft-store"
   }

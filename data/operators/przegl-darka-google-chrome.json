@@ -1,0 +1,28 @@
+{
+  "name": "Przegl\u0105darka Google Chrome",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.google.com/intl/pl/chrome/",
+  "town": "Scilla",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Scilla"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Scilla Calabria",
+    "rank": 4,
+    "title": "Przegl\u0105darka Google Chrome",
+    "url": "https://www.google.com/intl/pl/chrome/"
+  }
+}

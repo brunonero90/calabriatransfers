@@ -1,0 +1,28 @@
+{
+  "name": "Rosia, Sovicille",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://en.wikipedia.org/wiki/Rosia",
+  "town": "Crotone",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Crotone"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Crotone Calabria",
+    "rank": 9,
+    "title": "Rosia, Sovicille - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Rosia,_Sovicille"
+  }
+}

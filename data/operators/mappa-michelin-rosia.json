@@ -1,0 +1,28 @@
+{
+  "name": "Mappa MICHELIN Rosia",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.viamichelin.it/mappe-piantine/italia/toscana/siena/rosia-53018",
+  "town": "Crotone",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Crotone"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Crotone Calabria",
+    "rank": 8,
+    "title": "Mappa MICHELIN Rosia - ViaMichelin",
+    "url": "https://www.viamichelin.it/mappe-piantine/italia/toscana/siena/rosia-53018"
+  }
+}

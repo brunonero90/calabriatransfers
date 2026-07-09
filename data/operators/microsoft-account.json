@@ -20,7 +20,7 @@
   ],
   "source": {
     "provider": "bing-rss",
-    "query": "taxi Cosenza Calabria",
+    "query": "NCC Cosenza Calabria",
     "rank": 2,
     "title": "Microsoft account | Sign In or Create Your Account Today \u2013 Microsoft",
     "url": "https://account.microsoft.com/account"

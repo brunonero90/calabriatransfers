@@ -1,0 +1,28 @@
+{
+  "name": "ChatGPT \u2013 Wikipedia",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://de.wikipedia.org/wiki/ChatGPT",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Reggio Calabria Calabria",
+    "rank": 9,
+    "title": "ChatGPT \u2013 Wikipedia",
+    "url": "https://de.wikipedia.org/wiki/ChatGPT"
+  }
+}

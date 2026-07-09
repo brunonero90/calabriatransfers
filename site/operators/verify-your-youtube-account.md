@@ -1,6 +1,6 @@
 # Verify your YouTube account
 
-- Town: Reggio Calabria
+- Town: Soverato
 - Phone: 
 - Email: 
 - WhatsApp: 
@@ -8,7 +8,7 @@
 - Languages: it
 - Vehicles: sedan
 - Services: private transfer
-- Coverage: Reggio Calabria
+- Coverage: Soverato
 - Completeness: 63.64%
 
 CalabriaTransfers verified profile snapshot.

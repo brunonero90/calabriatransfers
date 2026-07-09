@@ -1,0 +1,28 @@
+{
+  "name": "Google Earth",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://maps.google.es/intl/es_es/earth/download/gep/agree.html",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Reggio Calabria Calabria",
+    "rank": 10,
+    "title": "Google Earth",
+    "url": "https://maps.google.es/intl/es_es/earth/download/gep/agree.html"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "QUERY function",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://support.google.com/docs/answer/3093343?hl=en",
+  "town": "Rende",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Rende"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Rende Calabria",
+    "rank": 2,
+    "title": "QUERY function - Google Docs Editors Help",
+    "url": "https://support.google.com/docs/answer/3093343?hl=en"
+  }
+}

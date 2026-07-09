@@ -1,0 +1,28 @@
+{
+  "name": "Google Account",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://myaccount.google.com/intro/security",
+  "town": "Rende",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Rende"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Rende Calabria",
+    "rank": 2,
+    "title": "Google Account",
+    "url": "https://myaccount.google.com/intro/security"
+  }
+}

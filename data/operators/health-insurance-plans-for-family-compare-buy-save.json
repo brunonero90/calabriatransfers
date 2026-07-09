@@ -1,0 +1,28 @@
+{
+  "name": "Health Insurance Plans for Family: Compare, Buy & Save",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.policybazaar.com/health-insurance/family-health-insurance-plan/",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Reggio Calabria Calabria",
+    "rank": 1,
+    "title": "Health Insurance Plans for Family: Compare, Buy & Save",
+    "url": "https://www.policybazaar.com/health-insurance/family-health-insurance-plan/"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Learn More About Google's Secure and Protected Accounts",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://myaccount.google.com/",
+  "town": "Rende",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Rende"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Rende Calabria",
+    "rank": 3,
+    "title": "Learn More About Google's Secure and Protected Accounts - Google",
+    "url": "https://myaccount.google.com/"
+  }
+}

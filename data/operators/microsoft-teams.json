@@ -1,0 +1,28 @@
+{
+  "name": "Microsoft Teams",
+  "phone": "1113153706",
+  "email": "",
+  "whatsapp": "1113153706",
+  "website": "https://apps.apple.com/us/app/microsoft-teams/id1113153706",
+  "town": "Cosenza",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Cosenza"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Cosenza Calabria",
+    "rank": 8,
+    "title": "Microsoft Teams - App Store",
+    "url": "https://apps.apple.com/us/app/microsoft-teams/id1113153706"
+  }
+}

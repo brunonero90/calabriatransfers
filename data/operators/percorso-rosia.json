@@ -1,0 +1,28 @@
+{
+  "name": "Percorso Rosia",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.viamichelin.it/itinerari/risultati/rosia-53018-siena-toscana-italia-to-siena-53100-siena-toscana-italia",
+  "town": "Crotone",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Crotone"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Crotone Calabria",
+    "rank": 7,
+    "title": "Percorso Rosia - Siena - distanza, durata e costi - ViaMichelin",
+    "url": "https://www.viamichelin.it/itinerari/risultati/rosia-53018-siena-toscana-italia-to-siena-53100-siena-toscana-italia"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "A16: vernieuwen Van Brienenoordbrug",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.rijkswaterstaat.nl/wegen/projectenoverzicht/a16-vernieuwen-van-brienenoordbrug",
+  "town": "Tropea",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Tropea"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Tropea Calabria",
+    "rank": 1,
+    "title": "A16: vernieuwen Van Brienenoordbrug - Rijkswaterstaat",
+    "url": "https://www.rijkswaterstaat.nl/wegen/projectenoverzicht/a16-vernieuwen-van-brienenoordbrug"
+  }
+}

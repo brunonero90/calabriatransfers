@@ -1,0 +1,28 @@
+{
+  "name": "SunRise",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://forum.sunmc.ru/partition/72",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Reggio Calabria Calabria",
+    "rank": 8,
+    "title": "SunRise - Forum",
+    "url": "https://forum.sunmc.ru/partition/72"
+  }
+}

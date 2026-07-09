@@ -4,7 +4,7 @@
   "email": "",
   "whatsapp": "",
   "website": "https://support.google.com/youtube/answer/15968883?hl=en",
-  "town": "Reggio Calabria",
+  "town": "Catanzaro",
   "languages": [
     "it"
   ],
@@ -16,12 +16,12 @@
     "private transfer"
   ],
   "coverage": [
-    "Reggio Calabria"
+    "Catanzaro"
   ],
   "source": {
     "provider": "bing-rss",
-    "query": "NCC Reggio Calabria Calabria",
-    "rank": 10,
+    "query": "taxi Catanzaro Calabria",
+    "rank": 9,
     "title": "Get a Premium Lite membership on YouTube - Google Help",
     "url": "https://support.google.com/youtube/answer/15968883?hl=en"
   }

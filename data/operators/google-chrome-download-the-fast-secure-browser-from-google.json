@@ -1,0 +1,28 @@
+{
+  "name": "Google Chrome \u2013 Download the fast, secure browser from Google",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.google.com/intl/en_uk/chrome/",
+  "town": "Rende",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Rende"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Rende Calabria",
+    "rank": 8,
+    "title": "Google Chrome \u2013 Download the fast, secure browser from Google",
+    "url": "https://www.google.com/intl/en_uk/chrome/"
+  }
+}

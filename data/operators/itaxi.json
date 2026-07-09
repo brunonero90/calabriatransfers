@@ -4,7 +4,7 @@
   "email": "",
   "whatsapp": "",
   "website": "https://www.itaxi.pl/",
-  "town": "Vibo Valentia",
+  "town": "Rende",
   "languages": [
     "it"
   ],
@@ -16,12 +16,12 @@
     "private transfer"
   ],
   "coverage": [
-    "Vibo Valentia"
+    "Rende"
   ],
   "source": {
     "provider": "bing-rss",
-    "query": "taxi Vibo Valentia Calabria",
-    "rank": 10,
+    "query": "taxi Rende Calabria",
+    "rank": 3,
     "title": "iTaxi | Z nami do celu",
     "url": "https://www.itaxi.pl/"
   }

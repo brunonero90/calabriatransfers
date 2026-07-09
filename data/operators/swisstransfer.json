@@ -4,7 +4,7 @@
   "email": "",
   "whatsapp": "",
   "website": "https://www.swisstransfer.com/en",
-  "town": "Catanzaro",
+  "town": "Soverato",
   "languages": [
     "it"
   ],
@@ -16,11 +16,11 @@
     "private transfer"
   ],
   "coverage": [
-    "Catanzaro"
+    "Soverato"
   ],
   "source": {
     "provider": "bing-rss",
-    "query": "transfer aeroporto Catanzaro Calabria",
+    "query": "transfer aeroporto Soverato Calabria",
     "rank": 8,
     "title": "SwissTransfer - Send large files securely and free of charge",
     "url": "https://www.swisstransfer.com/en"

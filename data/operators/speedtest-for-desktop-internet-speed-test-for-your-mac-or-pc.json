@@ -1,0 +1,28 @@
+{
+  "name": "Speedtest for Desktop: Internet speed test for your Mac or PC",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.speedtest.net/apps/desktop",
+  "town": "Tropea",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Tropea"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Tropea Calabria",
+    "rank": 10,
+    "title": "Speedtest for Desktop: Internet speed test for your Mac or PC",
+    "url": "https://www.speedtest.net/apps/desktop"
+  }
+}

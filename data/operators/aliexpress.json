@@ -1,0 +1,28 @@
+{
+  "name": "Aliexpress",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://zyziu.pl/forum/aliexpress-clo",
+  "town": "Soverato",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Soverato"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Soverato Calabria",
+    "rank": 9,
+    "title": "Aliexpress - C\u0141O, VAT i inne op\u0142aty. O czym nie wiesz???",
+    "url": "https://zyziu.pl/forum/aliexpress-clo"
+  }
+}

@@ -20,7 +20,7 @@
   ],
   "source": {
     "provider": "bing-rss",
-    "query": "taxi Cosenza Calabria",
+    "query": "NCC Cosenza Calabria",
     "rank": 3,
     "title": "Office 365 login",
     "url": "https://www.office.com/"

@@ -1,0 +1,28 @@
+{
+  "name": "MSN",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.msn.com/",
+  "town": "Cosenza",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Cosenza"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Cosenza Calabria",
+    "rank": 7,
+    "title": "MSN | Personalized News, Top Headlines, Live Updates and more",
+    "url": "https://www.msn.com/"
+  }
+}

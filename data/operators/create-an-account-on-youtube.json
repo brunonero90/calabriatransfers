@@ -4,7 +4,7 @@
   "email": "",
   "whatsapp": "",
   "website": "https://support.google.com/youtube/answer/161805?hl=en&co=GENIE.Platform%3DDesktop",
-  "town": "Reggio Calabria",
+  "town": "Catanzaro",
   "languages": [
     "it"
   ],
@@ -16,11 +16,11 @@
     "private transfer"
   ],
   "coverage": [
-    "Reggio Calabria"
+    "Catanzaro"
   ],
   "source": {
     "provider": "bing-rss",
-    "query": "NCC Reggio Calabria Calabria",
+    "query": "taxi Catanzaro Calabria",
     "rank": 5,
     "title": "Create an account on YouTube - Computer - YouTube Help",
     "url": "https://support.google.com/youtube/answer/161805?hl=en&co=GENIE.Platform%3DDesktop"

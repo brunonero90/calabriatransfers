@@ -4,7 +4,7 @@
   "email": "",
   "whatsapp": "",
   "website": "https://www.transfermarkt.pl/?hl=en",
-  "town": "Rende",
+  "town": "Catanzaro",
   "languages": [
     "it"
   ],
@@ -16,11 +16,11 @@
     "private transfer"
   ],
   "coverage": [
-    "Rende"
+    "Catanzaro"
   ],
   "source": {
     "provider": "bing-rss",
-    "query": "transfer aeroporto Rende Calabria",
+    "query": "transfer aeroporto Catanzaro Calabria",
     "rank": 2,
     "title": "Transfery, pog\u0142oski, warto\u015bci rynkowe i wiadomo\u015bci",
     "url": "https://www.transfermarkt.pl/?hl=en"

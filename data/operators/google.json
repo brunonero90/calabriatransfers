@@ -3,8 +3,8 @@
   "phone": "",
   "email": "",
   "whatsapp": "",
-  "website": "https://www.google.com/",
-  "town": "Rende",
+  "website": "https://www.google.es/index.html",
+  "town": "Reggio Calabria",
   "languages": [
     "it"
   ],
@@ -16,13 +16,13 @@
     "private transfer"
   ],
   "coverage": [
-    "Rende"
+    "Reggio Calabria"
   ],
   "source": {
     "provider": "bing-rss",
-    "query": "taxi Rende Calabria",
-    "rank": 1,
+    "query": "NCC Reggio Calabria Calabria",
+    "rank": 2,
     "title": "Google",
-    "url": "https://www.google.com/"
+    "url": "https://www.google.es/index.html"
   }
 }

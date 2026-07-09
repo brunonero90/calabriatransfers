@@ -1,0 +1,28 @@
+{
+  "name": "Visual Page Editor",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://pagefly.io/pages/visual-editor",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Reggio Calabria Calabria",
+    "rank": 7,
+    "title": "Visual Page Editor | PageFly Landing Page Builder",
+    "url": "https://pagefly.io/pages/visual-editor"
+  }
+}

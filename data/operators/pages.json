@@ -1,0 +1,28 @@
+{
+  "name": "Pages",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://help.pagefly.io/pages-and-sections-creation/pages",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Reggio Calabria Calabria",
+    "rank": 8,
+    "title": "Pages | PageFly Help Center - help.pagefly.io",
+    "url": "https://help.pagefly.io/pages-and-sections-creation/pages"
+  }
+}

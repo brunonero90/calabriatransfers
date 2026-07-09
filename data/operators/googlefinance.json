@@ -1,0 +1,28 @@
+{
+  "name": "GOOGLEFINANCE",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://support.google.com/docs/answer/3093281?hl=en",
+  "town": "Rende",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Rende"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Rende Calabria",
+    "rank": 7,
+    "title": "GOOGLEFINANCE - Google Docs Editors Help",
+    "url": "https://support.google.com/docs/answer/3093281?hl=en"
+  }
+}

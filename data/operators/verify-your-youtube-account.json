@@ -4,7 +4,7 @@
   "email": "",
   "whatsapp": "",
   "website": "https://support.google.com/youtube/answer/171664?hl=en",
-  "town": "Catanzaro",
+  "town": "Soverato",
   "languages": [
     "it"
   ],
@@ -16,12 +16,12 @@
     "private transfer"
   ],
   "coverage": [
-    "Catanzaro"
+    "Soverato"
   ],
   "source": {
     "provider": "bing-rss",
-    "query": "taxi Catanzaro Calabria",
-    "rank": 2,
+    "query": "taxi Soverato Calabria",
+    "rank": 5,
     "title": "Verify your YouTube account - Google Help",
     "url": "https://support.google.com/youtube/answer/171664?hl=en"
   }

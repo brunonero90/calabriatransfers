@@ -1,0 +1,28 @@
+{
+  "name": "Webmail",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://zimbra.free.fr/poz/",
+  "town": "Crotone",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Crotone"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Crotone Calabria",
+    "rank": 2,
+    "title": "Webmail - Acc\u00e9dez \u00e0 vos emails Free",
+    "url": "https://zimbra.free.fr/poz/"
+  }
+}

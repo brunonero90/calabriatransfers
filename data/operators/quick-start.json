@@ -1,0 +1,28 @@
+{
+  "name": "Quick start",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://help.pagefly.io/getting-started/quick-start",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Reggio Calabria Calabria",
+    "rank": 4,
+    "title": "Quick start | PageFly Help Center - help.pagefly.io",
+    "url": "https://help.pagefly.io/getting-started/quick-start"
+  }
+}

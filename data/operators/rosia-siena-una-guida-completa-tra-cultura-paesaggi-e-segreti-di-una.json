@@ -1,0 +1,28 @@
+{
+  "name": "Rosia Siena: una guida completa tra cultura, paesaggi e segreti di una ...",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://revinelago.it/rosia-siena/",
+  "town": "Crotone",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Crotone"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Crotone Calabria",
+    "rank": 1,
+    "title": "Rosia Siena: una guida completa tra cultura, paesaggi e segreti di una ...",
+    "url": "https://revinelago.it/rosia-siena/"
+  }
+}

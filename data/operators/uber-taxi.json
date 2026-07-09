@@ -4,7 +4,7 @@
   "email": "",
   "whatsapp": "",
   "website": "https://www.uber.com/pl/pl/ride/ubertaxi/",
-  "town": "Vibo Valentia",
+  "town": "Rende",
   "languages": [
     "it"
   ],
@@ -16,12 +16,12 @@
     "private transfer"
   ],
   "coverage": [
-    "Vibo Valentia"
+    "Rende"
   ],
   "source": {
     "provider": "bing-rss",
-    "query": "taxi Vibo Valentia Calabria",
-    "rank": 2,
+    "query": "taxi Rende Calabria",
+    "rank": 1,
     "title": "Uber Taxi | Zam\u00f3w lokalny przejazd taks\u00f3wk\u0105 w swojej okolicy",
     "url": "https://www.uber.com/pl/pl/ride/ubertaxi/"
   }

@@ -1,0 +1,28 @@
+{
+  "name": "Gmail: espacio de almacenamiento y correo gratuitos de Google",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.google.es/gmail/about/for-work/",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Reggio Calabria Calabria",
+    "rank": 7,
+    "title": "Gmail: espacio de almacenamiento y correo gratuitos de Google",
+    "url": "https://www.google.es/gmail/about/for-work/"
+  }
+}

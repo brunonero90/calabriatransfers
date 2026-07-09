@@ -1,14 +1,14 @@
 # Microsoft
 
-- Town: Cosenza
+- Town: Soverato
 - Phone: 
 - Email: 
 - WhatsApp: 
-- Website: https://www.linkedin.com/company/microsoft
+- Website: https://en.wikipedia.org/wiki/Microsoft
 - Languages: it
 - Vehicles: sedan
 - Services: private transfer
-- Coverage: Cosenza
+- Coverage: Soverato
 - Completeness: 63.64%
 
 CalabriaTransfers verified profile snapshot.

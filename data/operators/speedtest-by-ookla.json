@@ -1,0 +1,28 @@
+{
+  "name": "Speedtest by Ookla",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.speedtest.net/pt/run",
+  "town": "Tropea",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Tropea"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Tropea Calabria",
+    "rank": 9,
+    "title": "Speedtest by Ookla - Teste de Velocidade de Conex\u00e3o da Internet",
+    "url": "https://www.speedtest.net/pt/run"
+  }
+}

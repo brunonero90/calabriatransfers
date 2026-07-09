@@ -1,0 +1,28 @@
+{
+  "name": "FAMILY HEALTH PLAN INSURANCE TPA LIMITED",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.fhpl.net/",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Reggio Calabria Calabria",
+    "rank": 5,
+    "title": "FAMILY HEALTH PLAN INSURANCE TPA LIMITED",
+    "url": "https://www.fhpl.net/"
+  }
+}

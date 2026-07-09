@@ -1,0 +1,28 @@
+{
+  "name": "Health Insurance Plans: Buy Medical Insurance @ \u20b911/Day*",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.icicilombard.com/health-insurance",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Reggio Calabria Calabria",
+    "rank": 6,
+    "title": "Health Insurance Plans: Buy Medical Insurance @ \u20b911/Day*",
+    "url": "https://www.icicilombard.com/health-insurance"
+  }
+}

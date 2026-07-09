@@ -1,0 +1,28 @@
+{
+  "name": "Vernieuwing Van Brienenoordbrug",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.zuidhollandbereikbaar.nl/werkzaamheden/vernieuwing-van-brienenoordbrug",
+  "town": "Tropea",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Tropea"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Tropea Calabria",
+    "rank": 10,
+    "title": "Vernieuwing Van Brienenoordbrug - Zuid-Holland Bereikbaar",
+    "url": "https://www.zuidhollandbereikbaar.nl/werkzaamheden/vernieuwing-van-brienenoordbrug"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "APA",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://sr.pons.com/prevo%C4%91enje/engleski-francuski/APA",
+  "town": "Catanzaro",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Catanzaro"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Catanzaro Calabria",
+    "rank": 5,
+    "title": "APA - Prevod od engleski do francuski | PONS",
+    "url": "https://sr.pons.com/prevo%C4%91enje/engleski-francuski/APA"
+  }
+}

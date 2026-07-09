@@ -4,7 +4,7 @@
   "email": "",
   "whatsapp": "",
   "website": "https://support.google.com/chrome/answer/95346?hl=es&co=GENIE.Platform%3DDesktop",
-  "town": "Rende",
+  "town": "Soverato",
   "languages": [
     "it"
   ],
@@ -16,11 +16,11 @@
     "private transfer"
   ],
   "coverage": [
-    "Rende"
+    "Soverato"
   ],
   "source": {
     "provider": "bing-rss",
-    "query": "NCC Rende Calabria",
+    "query": "taxi Soverato Calabria",
     "rank": 2,
     "title": "Descargar e instalar Google Chrome",
     "url": "https://support.google.com/chrome/answer/95346?hl=es&co=GENIE.Platform%3DDesktop"

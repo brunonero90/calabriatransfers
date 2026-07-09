@@ -1,0 +1,28 @@
+{
+  "name": "Sign in",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://accounts.google.com/",
+  "town": "Scilla",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Scilla"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Scilla Calabria",
+    "rank": 7,
+    "title": "Sign in - Google Accounts",
+    "url": "https://accounts.google.com/"
+  }
+}

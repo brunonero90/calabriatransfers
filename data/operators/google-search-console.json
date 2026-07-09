@@ -1,0 +1,28 @@
+{
+  "name": "Google Search Console",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://search.google.com/search-console/about",
+  "town": "Rende",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Rende"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Rende Calabria",
+    "rank": 4,
+    "title": "Google Search Console",
+    "url": "https://search.google.com/search-console/about"
+  }
+}

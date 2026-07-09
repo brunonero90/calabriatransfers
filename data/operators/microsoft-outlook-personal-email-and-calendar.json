@@ -20,7 +20,7 @@
   ],
   "source": {
     "provider": "bing-rss",
-    "query": "taxi Cosenza Calabria",
+    "query": "NCC Cosenza Calabria",
     "rank": 6,
     "title": "Microsoft Outlook Personal Email and Calendar | Microsoft 365",
     "url": "https://www.outlook.com/"

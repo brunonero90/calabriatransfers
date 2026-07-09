@@ -1,0 +1,28 @@
+{
+  "name": "Full Time Near Me Jobs, Employment",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.indeed.com/q-Full-Time-Near-Me-jobs.html",
+  "town": "Scilla",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Scilla"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Scilla Calabria",
+    "rank": 7,
+    "title": "Full Time Near Me Jobs, Employment | Indeed",
+    "url": "https://www.indeed.com/q-Full-Time-Near-Me-jobs.html"
+  }
+}

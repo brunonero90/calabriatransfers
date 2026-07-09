@@ -1,14 +1,14 @@
-# Google 翻訳
+# Google
 
-- Town: Vibo Valentia
+- Town: Catanzaro
 - Phone: 
 - Email: 
 - WhatsApp: 
-- Website: https://translate.google.com/intl/ja/about/
+- Website: https://www.google.fr/index.html
 - Languages: it
 - Vehicles: sedan
 - Services: private transfer
-- Coverage: Vibo Valentia
+- Coverage: Catanzaro
 - Completeness: 63.64%
 
 CalabriaTransfers verified profile snapshot.

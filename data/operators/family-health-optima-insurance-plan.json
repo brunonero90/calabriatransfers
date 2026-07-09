@@ -1,0 +1,28 @@
+{
+  "name": "Family Health Optima Insurance Plan",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.starhealth.in/health-insurance/family-health-optima/",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Reggio Calabria Calabria",
+    "rank": 10,
+    "title": "Family Health Optima Insurance Plan",
+    "url": "https://www.starhealth.in/health-insurance/family-health-optima/"
+  }
+}

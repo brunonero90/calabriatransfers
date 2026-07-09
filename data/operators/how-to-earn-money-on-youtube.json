@@ -4,7 +4,7 @@
   "email": "",
   "whatsapp": "",
   "website": "https://support.google.com/youtube/answer/72857?hl=en",
-  "town": "Reggio Calabria",
+  "town": "Catanzaro",
   "languages": [
     "it"
   ],
@@ -16,12 +16,12 @@
     "private transfer"
   ],
   "coverage": [
-    "Reggio Calabria"
+    "Catanzaro"
   ],
   "source": {
     "provider": "bing-rss",
-    "query": "NCC Reggio Calabria Calabria",
-    "rank": 7,
+    "query": "taxi Catanzaro Calabria",
+    "rank": 6,
     "title": "How to earn money on YouTube - YouTube Help - Google Help",
     "url": "https://support.google.com/youtube/answer/72857?hl=en"
   }

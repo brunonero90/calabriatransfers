@@ -1,0 +1,28 @@
+{
+  "name": "Family Health Insurance Plans Online",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.sbigeneral.in/health-insurance/family-health-insurance",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Reggio Calabria Calabria",
+    "rank": 2,
+    "title": "Family Health Insurance Plans Online | SBI General Insurance",
+    "url": "https://www.sbigeneral.in/health-insurance/family-health-insurance"
+  }
+}

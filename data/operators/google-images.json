@@ -1,0 +1,28 @@
+{
+  "name": "Google Images",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://images.google.es/",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Reggio Calabria Calabria",
+    "rank": 4,
+    "title": "Google Images",
+    "url": "https://images.google.es/"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Read Your Daily Horoscope!",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.astrologyanswers.com/",
+  "town": "Soverato",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Soverato"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Soverato Calabria",
+    "rank": 7,
+    "title": "Read Your Daily Horoscope! | Astrology Answers",
+    "url": "https://www.astrologyanswers.com/"
+  }
+}

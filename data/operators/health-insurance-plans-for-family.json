@@ -1,0 +1,28 @@
+{
+  "name": "Health Insurance Plans for Family",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.hdfcergo.com/health-insurance/family-health-insurance",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Reggio Calabria Calabria",
+    "rank": 3,
+    "title": "Health Insurance Plans for Family - Best Mediclaim for Family",
+    "url": "https://www.hdfcergo.com/health-insurance/family-health-insurance"
+  }
+}

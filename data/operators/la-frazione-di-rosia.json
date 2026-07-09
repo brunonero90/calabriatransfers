@@ -1,0 +1,28 @@
+{
+  "name": "La Frazione di Rosia",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://italia.indettaglio.it/ita/toscana/siena_sovicille_rosia.html",
+  "town": "Crotone",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Crotone"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Crotone Calabria",
+    "rank": 5,
+    "title": "La Frazione di Rosia - Italia in dettaglio",
+    "url": "https://italia.indettaglio.it/ita/toscana/siena_sovicille_rosia.html"
+  }
+}

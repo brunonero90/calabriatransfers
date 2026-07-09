@@ -1,0 +1,28 @@
+{
+  "name": "Google Books: Find, Preview, and Read Books Online.",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://books.google.es/",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Reggio Calabria Calabria",
+    "rank": 8,
+    "title": "Google Books: Find, Preview, and Read Books Online.",
+    "url": "https://books.google.es/"
+  }
+}

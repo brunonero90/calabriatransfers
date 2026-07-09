@@ -1,0 +1,28 @@
+{
+  "name": "Settings",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.speedtest.net/zh-Hant/settings",
+  "town": "Tropea",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Tropea"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Tropea Calabria",
+    "rank": 3,
+    "title": "Settings - Speedtest by Ookla",
+    "url": "https://www.speedtest.net/zh-Hant/settings"
+  }
+}

@@ -3,7 +3,7 @@
   "phone": "",
   "email": "",
   "whatsapp": "",
-  "website": "https://www.linkedin.com/company/microsoft",
+  "website": "https://en.wikipedia.org/wiki/Microsoft",
   "town": "Cosenza",
   "languages": [
     "it"
@@ -20,9 +20,9 @@
   ],
   "source": {
     "provider": "bing-rss",
-    "query": "taxi Cosenza Calabria",
-    "rank": 8,
-    "title": "Microsoft - LinkedIn",
-    "url": "https://www.linkedin.com/company/microsoft"
+    "query": "NCC Cosenza Calabria",
+    "rank": 4,
+    "title": "Microsoft - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Microsoft"
   }
 }

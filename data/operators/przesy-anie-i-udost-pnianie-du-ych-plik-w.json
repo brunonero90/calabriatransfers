@@ -4,7 +4,7 @@
   "email": "",
   "whatsapp": "",
   "website": "https://www.transfernow.net/pl",
-  "town": "Rende",
+  "town": "Catanzaro",
   "languages": [
     "it"
   ],
@@ -16,11 +16,11 @@
     "private transfer"
   ],
   "coverage": [
-    "Rende"
+    "Catanzaro"
   ],
   "source": {
     "provider": "bing-rss",
-    "query": "transfer aeroporto Rende Calabria",
+    "query": "transfer aeroporto Catanzaro Calabria",
     "rank": 6,
     "title": "Przesy\u0142anie i Udost\u0119pnianie Du\u017cych Plik\u00f3w - TransferNow",
     "url": "https://www.transfernow.net/pl"

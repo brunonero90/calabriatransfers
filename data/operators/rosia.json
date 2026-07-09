@@ -1,0 +1,28 @@
+{
+  "name": "Rosia",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.prolocosovicille.it/it/territorio/rosia",
+  "town": "Crotone",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Crotone"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Crotone Calabria",
+    "rank": 3,
+    "title": "Rosia - Pro Loco Sovicille",
+    "url": "https://www.prolocosovicille.it/it/territorio/rosia"
+  }
+}

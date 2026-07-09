@@ -1,0 +1,28 @@
+{
+  "name": "Webmail Free.fr",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://zimbra.free.fr/fonts/files/lato/lato-regular-webfont.woff",
+  "town": "Crotone",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Crotone"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Crotone Calabria",
+    "rank": 6,
+    "title": "Webmail Free.fr",
+    "url": "https://zimbra.free.fr/fonts/files/lato/lato-regular-webfont.woff"
+  }
+}

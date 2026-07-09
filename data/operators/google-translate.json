@@ -3,8 +3,8 @@
   "phone": "",
   "email": "",
   "whatsapp": "",
-  "website": "https://translate.google.com/intl/nl/about/",
-  "town": "Vibo Valentia",
+  "website": "https://translate.google.ca/",
+  "town": "Catanzaro",
   "languages": [
     "it"
   ],
@@ -16,13 +16,13 @@
     "private transfer"
   ],
   "coverage": [
-    "Vibo Valentia"
+    "Catanzaro"
   ],
   "source": {
     "provider": "bing-rss",
-    "query": "NCC Vibo Valentia Calabria",
-    "rank": 5,
-    "title": "Google Translate - Een persoonlijke tolk op je telefoon of computer",
-    "url": "https://translate.google.com/intl/nl/about/"
+    "query": "NCC Catanzaro Calabria",
+    "rank": 6,
+    "title": "Google Translate",
+    "url": "https://translate.google.ca/"
   }
 }

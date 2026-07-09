@@ -1,0 +1,28 @@
+{
+  "name": "PageFly",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://pagefly.io/",
+  "town": "Reggio Calabria",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Reggio Calabria"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Reggio Calabria Calabria",
+    "rank": 1,
+    "title": "PageFly | The Best Shopify Solution For Page Building And Customizing",
+    "url": "https://pagefly.io/"
+  }
+}

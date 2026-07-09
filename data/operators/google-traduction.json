@@ -1,0 +1,28 @@
+{
+  "name": "Google Traduction",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://translate.google.fr/",
+  "town": "Catanzaro",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Catanzaro"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "NCC Catanzaro Calabria",
+    "rank": 3,
+    "title": "Google Traduction",
+    "url": "https://translate.google.fr/"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "I MIGLIORI luoghi famosi a Rosia",
+  "phone": "",
+  "email": "",
+  "whatsapp": "",
+  "website": "https://www.tripadvisor.it/Attractions-g668221-Activities-c47-Rosia_Sovicille_Tuscany.html",
+  "town": "Crotone",
+  "languages": [
+    "it"
+  ],
+  "vehicles": [
+    "sedan"
+  ],
+  "photos": [],
+  "services": [
+    "private transfer"
+  ],
+  "coverage": [
+    "Crotone"
+  ],
+  "source": {
+    "provider": "bing-rss",
+    "query": "taxi Crotone Calabria",
+    "rank": 6,
+    "title": "I MIGLIORI luoghi famosi a Rosia - Tripadvisor",
+    "url": "https://www.tripadvisor.it/Attractions-g668221-Activities-c47-Rosia_Sovicille_Tuscany.html"
+  }
+}
